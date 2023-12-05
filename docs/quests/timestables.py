@@ -5,8 +5,6 @@ num_get = int(input())
 
 num_count = 0
 
-
-
 while num_count < 9:
     num_count += 1
     result = num_get*num_count
