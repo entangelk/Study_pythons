@@ -1,13 +1,13 @@
 
 intro ="확인할 단의 숫자를 입력하세요 : "
 print("{}".format(intro))
-getnum = int(input())
+num_get = int(input())
 
-i = 0
+num_count = 0
 
 
 
-while i < 9:
-    i += 1
-    result = getnum*i
-    print('{} * {} = {}'.format(getnum, i, result)) 
+while num_count < 9:
+    num_count += 1
+    result = num_get*i
+    print('{} * {} = {}'.format(num_get, num_count, result)) 
