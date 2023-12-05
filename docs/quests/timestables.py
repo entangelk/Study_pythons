@@ -1,6 +1,6 @@
 
-intro ="확인할 단의 숫자를 입력하세요 : "
-print("{}".format(intro))
+str_intro ="확인할 단의 숫자를 입력하세요 : "
+print("{}".format(str_intro))
 num_get = int(input())
 
 num_count = 0
