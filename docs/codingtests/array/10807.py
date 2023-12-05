@@ -9,24 +9,20 @@
 # 출력
 # 첫째 줄에 입력으로 주어진 N개의 정수 중에 v가 몇 개인지 출력한다.
 
-import numpy as np
+
 
 getnum = int(input())
-savenum=[]
 answer=0
 
-savenum = np.append(savenum,[map(int, input().split())])
-
+savenum= list(map(int, input().split()))
 checknum = int(input())
 
 
 for i in range(getnum):
-    if checknum in savenum:
+    if checknum == savenum[i]:
         answer += 1
-        print(savenum[i])
         pass
     else :
         pass
-
-
+    pass
 print(answer)
