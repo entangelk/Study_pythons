@@ -19,13 +19,6 @@
 
 bkcount, setnum = map(int, input().split())
 
-bk=[]
+bk=list.
 
 for i in range(setnum):
-    lfnum, llnum, putnum = map(int, input().split())
-    for lfnum in range(llnum):
-        for j in range(llnum):
-            bk[j] += 1
-        pass
-    pass
-print(bk)
