@@ -9,5 +9,5 @@ num_count = 0
 
 while num_count < 9:
     num_count += 1
-    result = num_get*i
+    result = num_get*num_count
     print('{} * {} = {}'.format(num_get, num_count, result)) 
