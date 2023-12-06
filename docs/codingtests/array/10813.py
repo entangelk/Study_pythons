@@ -20,11 +20,24 @@
 bkcount, getnum = map(int, input().split())
 basket=[]
 
-for j in range(getnum):
-    basket.append(j)
+for j in range(bkcount):
+    basket.append(j+1)
 
 for i in range(getnum):
     setnumfr, setnumse = map(int, input().split())
-    tempbk = basket[setnumfr]
-    
+    if setnumfr != setnumse:
+        tempbk1 = basket[setnumfr-1]
+        basket.pop(setnumfr-1)
+        tempbk2 = basket[setnumse-2]
+        basket.pop(setnumse-2)
+        basket.insert(setnumfr-1,tempbk2)
+        basket.insert(setnumse-1,tempbk1)
+        pass
+    else :
+        pass
+    pass
+
+
+for k in basket:
+    print(k,end=" ")
     

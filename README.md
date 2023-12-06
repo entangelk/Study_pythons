@@ -39,3 +39,4 @@
 ||[py](./docs/codingtests/array/10818.py)|배열 내 최솟값, 최댓값 찾기 sort|[백준 10818](https://www.acmicpc.net/problem/10818)|
 ||[py](./docs/codingtests/array/2562.py)|배열 내 최댓값, 최댓값 주소 찾기|[백준 2562](https://www.acmicpc.net/problem/2562)|
 ||[py](./docs/codingtests/array/10810.py)|바구니에 공빼고 공넣기|[백준 10810](https://www.acmicpc.net/problem/10810)|
+||[py](./docs/codingtests/array/10813.py)|바구니 공 교환하기|[백준 10813](https://www.acmicpc.net/problem/10813)|
