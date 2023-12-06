@@ -34,7 +34,8 @@
 ||[py](./docs/codingtests/loops/2439.py)|별을 찍는 문제2 역순|[백준 2439](https://www.acmicpc.net/problem/2439)|
 ||[py](./docs/codingtests/loops/10952.py)|0 0이 들어올때까지 A+B 출력|[백준 10952](https://www.acmicpc.net/problem/10952)|
 ||[py](./docs/codingtests/loops/10951.py)|입력이 끝날때까지 A+B 출력(while)|[백준 10951](https://www.acmicpc.net/problem/10951)|
-|배열|[py](./docs/codingtests/array/10807.py)|배열 입력 후 v를 찾기|[백준 10807](https://www.acmicpc.net/problem/10807)|
+|배열|[py](./docs/codingtests/array/10807.py)|배열 입력 후 정수 갯수 세기|[백준 10807](https://www.acmicpc.net/problem/10807)|
 ||[py](./docs/codingtests/array/10871.py)|배열 입력 후 x보다 작은 수 찾기|[백준 10871](https://www.acmicpc.net/problem/10871)|
 ||[py](./docs/codingtests/array/10818.py)|배열 내 최솟값, 최댓값 찾기 sort|[백준 10818](https://www.acmicpc.net/problem/10818)|
 ||[py](./docs/codingtests/array/2562.py)|배열 내 최댓값, 최댓값 주소 찾기|[백준 2562](https://www.acmicpc.net/problem/2562)|
+||[py](./docs/codingtests/array/10810.py)|바구니에 공빼고 공넣기|[백준 10810](https://www.acmicpc.net/problem/10810)|
