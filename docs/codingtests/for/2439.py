@@ -14,5 +14,5 @@
 getnum = int(input())
 
 for i in range(getnum):
-    print(' '*((getnum-1)-(i+1)),'*'*(i+1))
+    print(' '*((getnum)-(i+1))+'*'*(i+1))
     pass
