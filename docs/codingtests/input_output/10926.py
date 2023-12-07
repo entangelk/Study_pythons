@@ -11,4 +11,4 @@
 name = input()
 plus = "??!"
 
-print(name+plus)
+print("{}{}".format(name, plus))
