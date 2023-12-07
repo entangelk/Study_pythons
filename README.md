@@ -40,3 +40,4 @@
 ||[py](./docs/codingtests/array/2562.py)|배열 내 최댓값, 최댓값 주소 찾기|[백준 2562](https://www.acmicpc.net/problem/2562)|
 ||[py](./docs/codingtests/array/10810.py)|바구니에 공빼고 공넣기|[백준 10810](https://www.acmicpc.net/problem/10810)|
 ||[py](./docs/codingtests/array/10813.py)|바구니 공 교환하기|[백준 10813](https://www.acmicpc.net/problem/10813)|
+||[py](./docs/codingtests/array/5597.py)|성적 미제출자 확인|[백준 5597](https://www.acmicpc.net/problem/5597)|

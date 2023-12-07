@@ -21,16 +21,15 @@ for j in range(28):
     inputclass.append(int(input()))
     pass
 
-countnum =0
-for k in range(28):
-    for l in range(30):
-     if inputclass[k] == fullclass[29-l]:
-            fullclass.pop(0)
-            pass
+for k in range(30):
+    for l in range(28):
+     if fullclass[k] == inputclass[l]:
+        fullclass[k]=0
+        pass
      pass
     pass
-fullclass.sort()
+fullclass.sort(reverse=True)
 
-print(fullclass[0])
 print(fullclass[1])
+print(fullclass[0])
 
