@@ -22,6 +22,17 @@ len(list_mixs)
 
 ## for문 활용 후 다시 오기
 
-# for 기본 문형
-for x in []:
-    pass
+# index(색인, 위치값)
+list_fruits = ['apple', 'banana', 'cherry', 'melon']
+## index로 값 가져오기
+list_fruits[0]      # 단일 변수로 여김
+#'apple'
+list_fruits[3]
+#'melon'
+
+# list_fruits[4]
+# Traceback (most recent call last):
+# File "<string>", line 1, in <module>
+# IndexError: list index out of range
+
+pass
