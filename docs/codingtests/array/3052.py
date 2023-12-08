@@ -10,7 +10,7 @@
 
 # 출력
 # 첫째 줄에, 42로 나누었을 때, 서로 다른 나머지가 몇 개 있는지 출력한다.
-
+# temp=[39,40,41,42,43,44,82,83,84,85]
 get_list=[]
 count_list=[]
 for i in range(10):
@@ -18,17 +18,16 @@ for i in range(10):
     count_list.append(0)
     pass
 copy_list=get_list.copy()
-copy_list.reverse()
 print(get_list)
 print(copy_list)
 
 for i in range(10):
     for j in range(i,10):
         if get_list[i] == copy_list[j]:
-            
+            count_list[i] += 50
             pass
         pass
-        count_list[i] += 50
+
     pass
 
 print(count_list.count(50))
