@@ -20,9 +20,24 @@
 get_basket, get_count = map(int, input().split())
 
 set_basket=[]
+temp_list = []
 
 for i in range(get_basket):
     set_basket.append(i+1)
+    temp_list.append(0)
+    pass
+
+
+for i in range(get_count):
+    get_num1, get_num2 = map(int, input().split())
+    for j in range(get_num1-1,get_num2):
+        temp_list[j] = set_basket[j]
+        pass
+    temp_list.reverse()
+    for j in range(get_num1-1,get_num2):
+        set_basket[len(temp_list)-get_num2-j] = temp_list[len(temp_list)-get_num1-j]
+        pass
+
     pass
 
 print(set_basket)
