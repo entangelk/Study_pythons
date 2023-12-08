@@ -23,12 +23,17 @@ print(get_list)
 print(copy_list)
 
 for i in range(10):
-    for j in range(9):
-        if get_list[i] == copy_list[9-j]:
-            get_list[i] = 50
+    for j in range(1,9):
+        if get_list[i] == copy_list[9-j-i]:
+            count_list[i] += 50
             pass
+if count_list.count(0) == 0:
+    print(1)
+    pass
+else :
+    print(count_list.count(0))
+    pass
 
-print(get_list)
 
 """
 for j in range(10):
