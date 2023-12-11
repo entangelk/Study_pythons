@@ -13,8 +13,8 @@ class Arithmetics:
         if self.num2 !=0:
             return self.num1/self.num2
         else :
-            print('0으로는 나눌 수 없습니다.')
-            return
+            error = '0으로는 나눌 수 없습니다.'
+            return error
 get_num1 = int(input('1번째 숫자를 입력하세요 : '))
 get_num2 = int(input('2번째 숫자를 입력하세요 : '))
 
