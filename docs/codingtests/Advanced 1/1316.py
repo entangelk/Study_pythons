@@ -10,7 +10,7 @@
 
 # 출력
 # 첫째 줄에 그룹 단어의 개수를 출력한다.
-'''
+
 get_num = int(input())
 count = 0
 
@@ -31,22 +31,4 @@ for i in range(get_num):
     pass
 
 print(count)
-'''
 
-get_num = int(input())
-count = 0
-
-for _ in range(get_num):
-    char = input()
-    unique_chars = set(char)
-    consecutive_chars = []
-
-    for i in range(len(char) - 1):
-        if char[i] == char[i + 1]:
-            consecutive_chars.append(char[i])
-
-    for char in consecutive_chars:
-        if char not in char[i+2:]:
-            count += 1
-
-print(count)
