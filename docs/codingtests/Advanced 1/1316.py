@@ -12,23 +12,18 @@
 # 첫째 줄에 그룹 단어의 개수를 출력한다.
 
 get_num = int(input())
-count = 0
+full_count=get_num
 
 for i in range(get_num):
     char = input()
-    pass
-    for j in range(char.count(char[k] for k in range(len(char)))): # 여기 고쳐야댐 i의 조건이 len(char)로
-        if char[i] == char[j]:
-            count += 1
-            count - char.count(char[i]) +1
-            pass
-        elif char.count(char[i]) == 1:
-            count += 1
-            pass
-        else:
-            pass
-        pass
-    pass
+    for j in range(len(char)-1):
+        if char[j] == char[j+1]:
+            continue
+        elif char[j] in char[j+1]:
+            full_count -= 1
+            break
 
-print(count)
+
+
+print(full_count)
 
