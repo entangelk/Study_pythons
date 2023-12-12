@@ -12,6 +12,23 @@
 # 첫째 줄에 그룹 단어의 개수를 출력한다.
 
 get_num = int(input())
+group_word_count = 0
+
+for _ in range(get_num):
+    word = input()
+    is_group_word = True
+    for i in range(len(word) - 1):  # 각 문자를 순회하면서
+        if word[i] != word[i + 1]:  # 현재 문자와 다음 문자가 다르다면
+            if word[i] in word[i + 1:]:  # 현재 문자가 뒤에 또 나온다면 그룹 단어가 아닙니다. !!!!!!! [i+1:] 현재 단어 바로 뒤에서부터 끝까지 검사하는 키워드
+                is_group_word = False
+                break
+    if is_group_word:  # 그룹 단어라면 count를 증가시킵니다.
+        group_word_count += 1
+
+print(group_word_count)
+
+'''
+get_num = int(input())
 full_count=0
 
 temp_list=[]
@@ -19,28 +36,24 @@ count_list=[]
 for i in range(get_num):
     char = input()
     for j in range(len(char)):
-        print(char[j])
         count_list.append(char.count(char[j]))
         temp_list.append(char.index(char[j]))
         pass
-    print(count_list)
-    print(temp_list)
     for j in range(len(char)):
-        if j == 1:
-            full_count += 1
-        elif count_list[j] >= 2:
-            if char[temp_list[j]] == char[temp_list[j+count_list[j]-1]]:
+        if j < (len(char)-1):
+            if j == 1:
                 full_count += 1
+            elif count_list[j] >= 2:
+                if char[temp_list[j]] == char[temp_list[j]+count_list[j]-1]:
+                    full_count += 1
+                    pass
                 pass
             pass
-        pass
     pass
 
 
-
-print(set(temp_list))
 print(full_count)
-
+'''
 
 '''
 문자열 내 알파벳의 각각 갯수를 리스트에 저장 끗
