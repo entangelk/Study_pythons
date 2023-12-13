@@ -41,3 +41,24 @@
 ||[py](./docs/codingtests/array/10810.py)|바구니에 공빼고 공넣기|[백준 10810](https://www.acmicpc.net/problem/10810)|
 ||[py](./docs/codingtests/array/10813.py)|바구니 공 교환하기|[백준 10813](https://www.acmicpc.net/problem/10813)|
 ||[py](./docs/codingtests/array/5597.py)|성적 미제출자 확인|[백준 5597](https://www.acmicpc.net/problem/5597)|
+||[py](./docs/codingtests/array/3052.py)|42로 나눈 나머지 값이 서로 다른 갯수 확인|[백준 3052](https://www.acmicpc.net/problem/3052)|
+||[py](./docs/codingtests/array/10811.py)|바구니 내용 뒤집기|[백준 10811](https://www.acmicpc.net/problem/10811)|
+||[py](./docs/codingtests/array/1546.py)|평균 조작하기|[백준 1546](https://www.acmicpc.net/problem/1546)|
+|문자열|[py](./docs/codingtests/string/27866.py)|문자열 입력 출력|[백준 27866](https://www.acmicpc.net/problem/27866)|
+||[py](./docs/codingtests/string/2743.py)|문자열 길이 재기|[백준 2743](https://www.acmicpc.net/problem/2743)|
+||[py](./docs/codingtests/string/9086.py)|문자열의 첫글자 마지막글자 출력|[백준 9086](https://www.acmicpc.net/problem/9086)|
+||[py](./docs/codingtests/string/11654.py)|아스키코드|[백준 11654](https://www.acmicpc.net/problem/11654)|
+||[py](./docs/codingtests/string/11720.py)|주어진 숫자의 각 자리를 합산|[백준 11720](https://www.acmicpc.net/problem/11720)|
+||[py](./docs/codingtests/string/10809.py)|문자열 내 각 알파벳 처음 등장 위치|[백준 10809](https://www.acmicpc.net/problem/10809)|
+||[py](./docs/codingtests/string/2675.py)|문자열 내 아이템 반복|[백준 2675](https://www.acmicpc.net/problem/2675)|
+||[py](./docs/codingtests/string/1152.py)|문자열 내 단어의 갯수 확인|[백준 1152](https://www.acmicpc.net/problem/1152)|
+||[py](./docs/codingtests/string/2908.py)|숫자 뒤집기|[백준 2908](https://www.acmicpc.net/problem/2908)|
+||[py](./docs/codingtests/string/5622.py)|규칙에 의한 문자 대응 수 출력|[백준 5622](https://www.acmicpc.net/problem/5622)|
+||[py](./docs/codingtests/string/11718.py)|그대로 출력|[백준 11718](https://www.acmicpc.net/problem/11718)|
+|심화 1|[py](./docs/codingtests/Advanced%201/25083.py)|새싹 프린트|[백준 25083](https://www.acmicpc.net/problem/25083)|
+||[py](./docs/codingtests/Advanced%201/3003.py)|체스말 갯수 체크|[백준 3003](https://www.acmicpc.net/problem/3003)|
+||[py](./docs/codingtests/Advanced%201/2444.py)|별 찍기|[백준 2444](https://www.acmicpc.net/problem/2444)|
+||[py](./docs/codingtests/Advanced%201/10988.py)|팰린드롭 확인|[백준 10988](https://www.acmicpc.net/problem/10988)|
+||[py](./docs/codingtests/Advanced%201/1157.py)|단어 내 많이 사용된 알파벳 출력|[백준 1157](https://www.acmicpc.net/problem/1157)|
+||[py](./docs/codingtests/Advanced%201/2941.py)|크로아티아 알파벳|[백준 2941](https://www.acmicpc.net/problem/2941)|
+||[py](./docs/codingtests/Advanced%201/1316.py)|그룹 단어 체크|[백준 1316](https://www.acmicpc.net/problem/1316)|

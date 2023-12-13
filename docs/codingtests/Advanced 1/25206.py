@@ -31,19 +31,40 @@
 # 정답과의 절대오차 또는 상대오차가 
 # \(10^{-4}\) 이하이면 정답으로 인정한다.
 
-dict_level ={
- "A+" :	4.5,
- "A0" :	4.0,
- "B+" :	3.5,
- "B0" :	3.0,
- "C+" :	2.5,
- "C0" :	2.0,
- "D+" :	1.5,
- "D0" :	1.0,
- "F" :	0.0
+data_set = {
+ 'A+':	4.5,
+ 'A0':	4.0,
+ 'B+':	3.5,
+ 'B0':	3.0,
+ 'C+':	2.5,
+ 'C0':	2.0,
+ 'D+':	1.5,
+ 'D0':	1.0,
+ 'F':   0.0
 }
 
+set_list=[]
+my_score=[]
+
+sum_score = 0
+my_sum_score=0
 for i in range(20):
     subject, score, level = map(str, input().split())
-    if level != 'p':
-        set_list=list([int(score)])
+    if level != 'P':
+        set_list.append(float(score)*data_set[level])
+        my_score.append(data_set[level])
+        pass
+    else:
+        pass
+    pass
+
+for i in range(len(set_list)):
+    sum_score += set_list[i]
+    my_sum_score += my_score[i]
+    pass
+
+if my_sum_score == 0:
+    my_sum_score += 1
+    pass
+
+print(sum_score/my_sum_score)
