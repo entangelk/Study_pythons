@@ -52,7 +52,7 @@ for i in range(20):
     subject, score, level = map(str, input().split())
     if level != 'P':
         set_list.append(float(score)*data_set[level])
-        my_score.append(data_set[level])
+        my_score.append(float(score))
         pass
     else:
         pass

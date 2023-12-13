@@ -62,3 +62,4 @@
 ||[py](./docs/codingtests/Advanced%201/1157.py)|단어 내 많이 사용된 알파벳 출력|[백준 1157](https://www.acmicpc.net/problem/1157)|
 ||[py](./docs/codingtests/Advanced%201/2941.py)|크로아티아 알파벳|[백준 2941](https://www.acmicpc.net/problem/2941)|
 ||[py](./docs/codingtests/Advanced%201/1316.py)|그룹 단어 체크|[백준 1316](https://www.acmicpc.net/problem/1316)|
+||[py](./docs/codingtests/Advanced%201/25206.py)|학점 계산|[백준 25206](https://www.acmicpc.net/problem/25206)|
