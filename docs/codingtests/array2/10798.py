@@ -28,3 +28,16 @@
 # 출력
 # 영석이가 세로로 읽은 순서대로 글자들을 출력한다. 이때, 글자들을 공백 없이 연속해서 출력한다. 
 
+full_board = []
+
+for i in range(5):
+    full_board.append(list(map(str, input().split())))
+    pass
+
+for i in range(15):
+    for j in range(5):
+        try:
+            print(full_board[j][0][i], end="")
+            pass
+        except:
+            continue
