@@ -63,3 +63,7 @@
 ||[py](./docs/codingtests/Advanced%201/2941.py)|크로아티아 알파벳|[백준 2941](https://www.acmicpc.net/problem/2941)|
 ||[py](./docs/codingtests/Advanced%201/1316.py)|그룹 단어 체크|[백준 1316](https://www.acmicpc.net/problem/1316)|
 ||[py](./docs/codingtests/Advanced%201/25206.py)|학점 계산|[백준 25206](https://www.acmicpc.net/problem/25206)|
+|2차원 배열|[py](./docs/codingtests/array2/2738.py)|행렬 2개 각 자리 덧셈|[백준 2738](https://www.acmicpc.net/problem/2738)|
+||[py](./docs/codingtests/array2/2566.py)|행렬에서 최댓값, 주소 찾기|[백준 2566](https://www.acmicpc.net/problem/2566)|
+||[py](./docs/codingtests/array2/10798.py)|행렬 세로읽기|[백준 10798](https://www.acmicpc.net/problem/10798)|
+||[py](./docs/codingtests/array2/2563.py)|색종이 넓이 구하기|[백준 2563](https://www.acmicpc.net/problem/2563)|

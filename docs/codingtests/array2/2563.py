@@ -15,17 +15,23 @@
 
 get_num = int(input())
 
-set_list=[]
-square = 0
+count=0
+
+area_array = [[0 for i in range(100)] for j in range(100)]
 
 for i in range(get_num):
-    set_list.append(list(map(int, input().split())))
+    x,y = map(int, input().split())
+    for j in range(x,x+10):
+        for k in range(y,y+10):
+            area_array[j][k] = 1
+            pass
+        pass
     pass
 
-for i in range(1,get_num):
-    if set_list[i-1][0] +10 < set_list[i][0]:
-        if set_list[i-1][1]+10 < set_list[i][1]:
-            suqare += ((set_list[i-1][0]+10) -(set_list[i][0]))*((set_list[i-1][1]+10) - (set_list[i][1]))
+for i in range(100):
+    count += area_array[i].count(1)
+    pass
 
-print(square)
-print(set_list)
+
+print(count)
+
