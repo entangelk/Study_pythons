@@ -12,7 +12,7 @@
 
 # 출력
 # 첫째 줄에 윤년이면 1, 아니면 0을 출력한다.
-
+'''
 a = int(input())
 
 if (a%4) == 0:
@@ -27,3 +27,27 @@ if (a%4) == 0:
         pass
 else :
     print("0")
+    pass
+
+'''
+
+a = int(input())
+
+def lunaset():
+    if (a%4) == 0:
+        if (a%100) != 0:
+            result="1"
+            pass
+        elif (a%400) == 0:
+            result="1"
+            pass
+        else :
+            result="0"
+            pass
+    else :
+        result="0"
+        pass
+    return result
+
+run = lunaset()
+print(run)

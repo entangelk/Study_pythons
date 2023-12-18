@@ -12,7 +12,7 @@
 
 # 출력
 # 첫째 줄에 종료되는 시각의 시와 분을 공백을 사이에 두고 출력한다. (단, 시는 0부터 23까지의 정수, 분은 0부터 59까지의 정수이다. 디지털 시계는 23시 59분에서 1분이 지나면 0시 0분이 된다.)
-
+'''
 a,b = map(int, input().split())
 c = int(input())
 
@@ -36,3 +36,29 @@ else :
         pass
     else :
         print(a+d, (b+c)-60*d)
+'''
+
+def ovenclock():
+    d = (b+c)//60
+    if (b+c)>=60:
+        if a+d >= 24:
+            result_a = a-24+d
+            result_b = (b+c)%60
+            pass
+        else:
+            result_a = a+d
+            result_b = (b+c)%60
+            pass
+        pass
+    else :
+        result_a = a
+        result_b = b+c
+        pass
+    result_list = [result_a,result_b]
+    return result_list
+
+a,b = map(int, input().split())
+c = int(input())
+
+run = ovenclock()
+print("{} {}".format(run[0],run[1]))

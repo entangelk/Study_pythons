@@ -20,7 +20,7 @@
 
 # 출력
 # 첫째 줄에 상근이가 창영이의 방법을 사용할 때, 설정해야 하는 알람 시간을 출력한다. (입력과 같은 형태로 출력하면 된다.)
-
+'''
 a,b = map(int, input().split())
 
 if b >= 45:
@@ -32,3 +32,27 @@ else :
         pass
     else :
         print(a-1, b+15)
+        pass
+'''
+
+a,b = map(int, input().split())
+
+def alamclock():
+    if b-45>=0:
+        result_a = a
+        result_b = b-45
+        pass
+    elif b-45<0:
+        if a==0:
+            result_a = 23
+            result_b = b+15
+            pass
+        else:
+            result_a = a-1
+            result_b = b+15
+            pass
+    result_list = [result_a,result_b]
+    return result_list
+
+run = alamclock()
+print("{} {}".format(run[0],run[1]))

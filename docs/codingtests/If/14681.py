@@ -14,7 +14,7 @@
 
 # 출력
 # 점 (x, y)의 사분면 번호(1, 2, 3, 4 중 하나)를 출력한다.
-
+'''
 x = int(input())
 y = int(input())
 
@@ -32,3 +32,28 @@ elif x < 0:
     elif y < 0:
         print("3")
         pass
+'''
+
+def Quadrant():
+    if x > 0:
+        if y > 0:
+            result="1"
+            pass
+        elif y < 0:
+            result="4"
+            pass
+    elif x < 0:
+        if y > 0:
+            result="2"
+            pass
+        elif y < 0:
+            result="3"
+            pass
+        pass
+    return result
+
+x = int(input())
+y = int(input())
+
+run=Quadrant()
+print(run)

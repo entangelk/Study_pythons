@@ -8,7 +8,7 @@
 
 # 출력
 # 시험 성적을 출력한다.
-
+'''
 a = int(input())
 
 if a >= 90:
@@ -25,3 +25,27 @@ elif a>=60:
     pass
 else:
     print('F')
+    pass
+'''
+def level_set():
+    if a >= 90:
+        result = 'A'
+    elif a>=80:
+        result ='B'
+        pass
+    elif a>=70:
+        result ='C'
+        pass
+    elif a>=60:
+        result ='D'
+        pass
+    else:
+        result ='F'
+        pass
+    return result
+
+
+a = int(input())
+
+level=level_set()
+print(level)
