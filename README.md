@@ -67,3 +67,9 @@
 ||[py](./docs/codingtests/array2/2566.py)|행렬에서 최댓값, 주소 찾기|[백준 2566](https://www.acmicpc.net/problem/2566)|
 ||[py](./docs/codingtests/array2/10798.py)|행렬 세로읽기|[백준 10798](https://www.acmicpc.net/problem/10798)|
 ||[py](./docs/codingtests/array2/2563.py)|색종이 넓이 구하기|[백준 2563](https://www.acmicpc.net/problem/2563)|
+
+### 코드 블럭
+```
+~$ python ./solving_problems_functions.py
+~$ python ./solving_problems_classes.py
+```
