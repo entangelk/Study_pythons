@@ -8,7 +8,7 @@
 
 # 출력
 # 1부터 n까지 합을 출력한다.
-
+'''
 n = int(input())
 d=0
 
@@ -17,3 +17,17 @@ for i in range(n+1):
     pass
 
 print(d)
+'''
+
+def sumcal():
+    d =[]
+    for i in range(n):
+        d.append(int(i+1))
+        pass
+    result = sum(d)
+    return result
+
+n = int(input())
+
+run=sumcal()
+print(run)

@@ -8,8 +8,19 @@
 
 # 출력
 # 출력형식과 같게 N*1부터 N*9까지 출력한다.
-
+'''
 n = int(input())
 
 for i in range(9):
     print(n,"*",i+1,'=',n*(i+1))
+    pass
+'''
+
+def gugudan():
+    for i in range(9):
+        print(n,"*",i+1,'=',n*(i+1))
+        pass
+    return
+
+n = int(input())
+run=gugudan()

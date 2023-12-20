@@ -16,6 +16,7 @@
 # 출력
 # 첫째 줄에 게임의 상금을 출력 한다.
 
+'''
 a,b,c = map(int, input().split())
 
 if a==b and a==c:
@@ -40,3 +41,35 @@ else :
     elif c>=a and c>=b:
         print(c*100)
         pass
+    pass
+'''
+
+def three_dice():
+    if a==b and a==c:
+        result = 10000+a*1000
+        pass
+    elif a==b and a!=c:
+        result = 1000+a*100
+        pass
+    elif a==c and a!=b:
+        result = 1000 + a*100
+        pass
+    elif b==c and a!=b:
+        result = 1000 + b*100
+        pass
+    else:
+        if a>=b and a>=c:
+            result =a*100
+            pass
+        elif b>=a and b>=c:
+            result =b*100
+            pass
+        elif c>=a and c>=b:
+            result =c*100
+            pass
+    return result
+
+
+a,b,c = map(int, input().split())
+run=three_dice()
+print(run)

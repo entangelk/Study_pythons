@@ -27,7 +27,7 @@
 # 출력
 # 혜아가 
 # $N$바이트 정수까지 저장할 수 있다고 생각하는 정수 자료형의 이름을 출력하여라.
-
+'''
 count = int(input())
 char=''
 
@@ -37,3 +37,17 @@ for i in range(count//4):
     pass
 
 print(char+'int')
+
+'''
+
+def len_long():
+    char=''
+    for i in range(count//4):
+        char += 'long '
+        pass
+    result = char+'int'
+    return result
+
+count = int(input())
+run=len_long()
+print(run)

@@ -20,7 +20,7 @@
 
 # 출력
 # 각 테스트케이스마다 A+B를 한 줄에 하나씩 순서대로 출력한다.
-
+'''
 import sys
 
 getnum = int(sys.stdin.readline())
@@ -29,3 +29,20 @@ for i in range(getnum):
     prinum, secnum = map(int, sys.stdin.readline().split())
     print(prinum+secnum)
     pass
+'''
+import sys
+
+def fast_sum():
+    result=[]
+    for i in range(get):
+        num1, num2 = map(int, sys.stdin.readline().split())
+        result.append(num1 + num2)
+        pass
+    
+    for i in result:
+        print(i)
+        pass
+    return
+
+get = int(sys.stdin.readline())
+run=fast_sum()

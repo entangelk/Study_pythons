@@ -10,8 +10,23 @@
 
 # 출력
 # 각 테스트 케이스마다 A+B를 출력한다.
-
+'''
 t = int(input())
 for i in range(t):
     a,b = map(int, input().split())    
     print(a+b)
+'''
+
+def sum():
+    result=[]
+    for i in range(t):
+        a,b = map(int, input().split()) 
+        result.append(a+b)
+        pass
+    for i in range(len(result)):
+        print(result[i])
+        pass
+    return
+
+t = int(input())
+run=sum()
