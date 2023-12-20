@@ -2,8 +2,6 @@
 
 |구분|소스|문제설명|출처|
 |--|--|--|--|
-<details>
-  <summery>백준 입력과 출력</summery>
 |출력|[py](./docs/codingtests/input_output/2557.py)|Hello world!를 출력|[백준 2557](https://www.acmicpc.net/problem/2557)|
 ||[py](./docs/codingtests/input_output/1000.py)|두 수를 입력받고 합을 출력|[백준 1000](https://www.acmicpc.net/problem/1000)|
 ||[py](./docs/codingtests/input_output/1001.py)|두 수를 입력받고 뺄셈결과 출력|[백준 1001](https://www.acmicpc.net/problem/1001)|
@@ -17,7 +15,6 @@
 ||[py](./docs/codingtests/input_output/11382.py)|3수 입력받고 합을 출력|[백준 11382](https://www.acmicpc.net/problem/11382)|
 ||[py](./docs/codingtests/input_output/10171.py)|고양이 모양 문자 출력|[백준 10171](https://www.acmicpc.net/problem/10171)|
 ||[py](./docs/codingtests/input_output/10172.py)|개 모양 문자 출력|[백준 10172](https://www.acmicpc.net/problem/10172)|
-</details>
 |조건|[py](./docs/codingtests/If/1330.py)|두 수를 비교한 결과 출력|[백준 1330](https://www.acmicpc.net/problem/1330)|
 ||[py](./docs/codingtests/If/9498.py)|시험 점수를 성적으로 변환|[백준 9498](https://www.acmicpc.net/problem/9498)|
 ||[py](./docs/codingtests/If/2753.py)|윤년을 판별하는 문제|[백준 2753](https://www.acmicpc.net/problem/2753)|
