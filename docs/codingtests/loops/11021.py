@@ -20,6 +20,16 @@ for i in range(getnum):
     print('Case #{}: {}'.format(i+1,prinum+secnum))
     pass
 '''
+import sys
 
+def cal_sum():
+    getnum = int(sys.stdin.readline())
+    for i in range(getnum):
+        prinum, secnum= map(int, sys.stdin.readline().split())
+        result=prinum+secnum
+        print('Case #{}: {}'.format(i+1,result))
+    pass
+    return
 
+cal_sum()
 

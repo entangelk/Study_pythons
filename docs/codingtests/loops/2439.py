@@ -10,9 +10,20 @@
 
 # 출력
 # 첫째 줄부터 N번째 줄까지 차례대로 별을 출력한다.
-
+'''
 getnum = int(input())
 
 for i in range(getnum):
     print(' '*((getnum)-(i+1))+'*'*(i+1))
     pass
+'''
+
+def print_star():
+    getnum = int(input())
+
+    for i in range(getnum):
+        print(' '*((getnum)-(i+1))+'*'*(i+1))
+        pass    
+    return
+
+print_star()

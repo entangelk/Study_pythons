@@ -12,7 +12,7 @@
 
 # 출력
 # 각 테스트 케이스마다 A+B를 출력한다.
-
+'''
 a,b = map(int, input().split())
 
 
@@ -23,3 +23,5 @@ while True:
         print(a+b)
         a,b = map(int, input().split())
         pass
+'''
+
