@@ -18,6 +18,7 @@ for i in range(getnum):
     pass
 '''
 
+
 def print_star():
     getnum = int(input())
 

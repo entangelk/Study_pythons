@@ -10,7 +10,7 @@
 
 # 출력
 # 각 테스트 케이스마다 A+B를 출력한다.
-
+'''
 a,b = map(int, input().split())
 
 while True:
@@ -20,3 +20,22 @@ while True:
         pass
     except:
         break
+'''
+
+def cal_sum():
+    while True:
+        try:
+            a,b = map(int, input().split())
+            if a==0 and b==0:
+                break
+            else:
+                result = a+b
+                print(result)
+                pass
+            pass
+        except:
+            break
+        pass
+    return
+
+cal_sum()

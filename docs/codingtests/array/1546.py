@@ -13,7 +13,7 @@
 # 출력
 # 첫째 줄에 새로운 평균을 출력한다. 실제 정답과 출력값의 절대오차 또는 상대오차가 10-2 이하이면 정답이다.
 
-
+'''
 get_num = int(input())
 
 score = [i for i in map(int, input().split())]
@@ -27,3 +27,14 @@ for i in range(len(temp)):
     pass
 
 print((100 + (sum_temp/score[0])*100)/len(score))
+'''
+
+def mis_evg():
+    get_num = int(input())
+    set_list = list(map(int, input().split()))
+    set_list.sort()
+    result = (sum(set_list)/set_list[-1])*100/len(set_list)
+    print(result)
+    return
+
+mis_evg()

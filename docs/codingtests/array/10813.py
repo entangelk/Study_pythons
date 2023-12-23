@@ -16,7 +16,7 @@
 
 # 출력
 # 1번 바구니부터 N번 바구니에 들어있는 공의 번호를 공백으로 구분해 출력한다.
-
+'''
 bkcount, getnum = map(int, input().split())
 basket=[]
 
@@ -40,4 +40,19 @@ for i in range(getnum):
 
 for k in basket:
     print(k,end=" ")
-    
+'''
+
+def basket_change():
+    a,b = map(int, input().split())
+    set_list=list(str(i+1) for i in range(a))
+    for i in range(b):
+        pri_num, sec_num = map(int, input().split())
+        for j in range((sec_num+1)-pri_num):
+            set_list[pri_num+j-1],set_list[sec_num-j-1]= set_list[sec_num-j-1],set_list[pri_num+j-1]
+            break    
+                
+        pass
+    print(" ".join(set_list))
+    return
+
+basket_change()

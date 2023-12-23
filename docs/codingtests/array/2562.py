@@ -14,7 +14,7 @@
 
 # 출력
 # 첫째 줄에 최댓값을 출력하고, 둘째 줄에 최댓값이 몇 번째 수인지를 출력한다.
-
+'''
 getnum = []
 
 for i in range(9):
@@ -39,4 +39,17 @@ for j in range(9):
 
 print(copygetnum[0])
 print(count+1)
+'''
+def highnumindex():
+    set_list = []
+    for i in range(9):
+        set_list.append(int(input()))
+        pass
+
+    temp_list=sorted(set_list)
+    print(temp_list[-1])
+    print(set_list.index(temp_list[-1])+1)
+    return
+
+highnumindex()
 

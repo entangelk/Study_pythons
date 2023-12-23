@@ -10,7 +10,7 @@
 
 # 출력
 # X보다 작은 수를 입력받은 순서대로 공백으로 구분해 출력한다. X보다 작은 수는 적어도 하나 존재한다.
-
+'''
 arrnum, getnum = map(int, input().split())
 arraymain=list(map(int, input().split()))
 arrayanswer=[]
@@ -25,3 +25,17 @@ for i in range(arrnum):
 
 for j in arrayanswer:
     print(j,end=" ")
+'''
+def under_num():
+    a, b = map(int, input().split())
+    set_list=list(map(int, input().split()))
+    result=[]
+    for i in range(a):
+        if set_list[i] < b:
+            result.append(str(set_list[i]))
+            pass
+        pass
+    print(" ".join(result))
+    return
+
+under_num()

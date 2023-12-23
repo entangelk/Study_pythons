@@ -11,6 +11,7 @@
 # 출력
 # 첫째 줄에, 42로 나누었을 때, 서로 다른 나머지가 몇 개 있는지 출력한다.
 # temp=[39,40,41,42,43,44,82,83,84,85]
+'''
 get_list=[]
 count_list=[]
 for i in range(10):
@@ -31,18 +32,11 @@ for i in range(10):
     pass
 
 print(count_list.count(50))
+'''
+
+def devine():
+    get_list = list((int(input())%42) for i in range(10))
+    print(len(set(get_list)))
 
 
-
-"""
-for j in range(10):
-    for k in range(10):
-        for l in range(9):
-            try:
-                if get_list[j+k] == copy_list[j+k+l+1]:
-                    copy_list[j+k] = 43
-                    print(copy_list)
-                    pass
-            except:
-                print(copy_list)
-"""
+devine()

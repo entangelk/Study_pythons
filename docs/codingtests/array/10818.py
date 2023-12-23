@@ -8,10 +8,20 @@
 
 # 출력
 # 첫째 줄에 주어진 정수 N개의 최솟값과 최댓값을 공백으로 구분해 출력한다.
-
+'''
 getnum = int(input())
 
 getarray = list(map(int, input().split()))
 getarray.sort()
 
 print("{} {}".format(getarray[0], getarray[getnum-1]))
+'''
+
+def sort():
+    get_num=int(input())
+    set_list=list(map(int, input().split()))
+    set_list.sort()
+    print(set_list[0],set_list[-1])
+    return
+
+sort()

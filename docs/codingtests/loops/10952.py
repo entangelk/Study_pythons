@@ -25,3 +25,18 @@ while True:
         pass
 '''
 
+def cal_sum():
+    while True:
+        a,b = map(int, input().split())
+        if a == 0 and b == 0:
+            break
+        else : 
+            result = a+b
+            print(result)
+            pass
+        pass
+    return
+
+cal_sum()
+
+    

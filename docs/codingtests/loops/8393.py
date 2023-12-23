@@ -19,6 +19,7 @@ for i in range(n+1):
 print(d)
 '''
 
+'''
 def sumcal():
     d =[]
     for i in range(n):
@@ -31,3 +32,16 @@ n = int(input())
 
 run=sumcal()
 print(run)
+'''
+
+def resum():
+    n = int(input())
+    d =[]
+    for i in range(n):
+        d.append(int(i+1))
+        pass
+    result = sum(d)
+    print(result)
+    return
+
+resum()

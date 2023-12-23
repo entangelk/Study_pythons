@@ -10,7 +10,7 @@
 
 # 출력
 # 출력은 2줄이다. 1번째 줄엔 제출하지 않은 학생의 출석번호 중 가장 작은 것을 출력하고, 2번째 줄에선 그 다음 출석번호를 출력한다.
-
+'''
 fullclass = []
 for i in range(30):
     fullclass.append(i+1)
@@ -33,3 +33,23 @@ fullclass.sort(reverse=True)
 print(fullclass[1])
 print(fullclass[0])
 
+'''
+
+def name_check():
+    student_list = list(i+1 for i in range(30))
+    result=[]
+
+    for i in range(28):
+        get_num = int(input())
+        result.append(get_num)
+        pass
+
+    for i in range(len(student_list)):
+        if student_list[i] not in result:
+            answer = student_list[i]
+            print(answer)
+            pass
+        pass
+    return
+
+name_check()        

@@ -9,8 +9,7 @@
 # 출력
 # 첫째 줄에 입력으로 주어진 N개의 정수 중에 v가 몇 개인지 출력한다.
 
-
-
+'''
 getnum = int(input())
 answer=0
 
@@ -26,3 +25,15 @@ for i in range(getnum):
         pass
     pass
 print(answer)
+'''
+
+def count_num():
+    get_num = int(input())
+    set_list=list(map(int, input().split()))
+    set_num = int(input())
+    
+    result = set_list.count(set_num)
+    return result
+
+print(count_num())
+        

@@ -40,6 +40,7 @@ print(char+'int')
 
 '''
 
+'''
 def len_long():
     char=''
     for i in range(count//4):
@@ -51,3 +52,7 @@ def len_long():
 count = int(input())
 run=len_long()
 print(run)
+'''
+
+count=int(input())
+print('long '*(count//4)+'int')

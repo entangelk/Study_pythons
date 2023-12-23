@@ -16,7 +16,7 @@
 
 # 출력
 # 모든 순서를 바꾼 다음에, 가장 왼쪽에 있는 바구니부터 바구니에 적혀있는 순서를 공백으로 구분해 출력한다.
-
+'''
 get_basket, get_count = map(int, input().split())
 
 set_basket=[]
@@ -37,3 +37,23 @@ for i in range(get_count):
 
 for i in range(get_basket):
     print(set_basket[i], end = ' ')
+'''
+
+def basket_reverse():
+    a, b = map(int, input().split())
+    basket_list = list(str(i+1) for i in range(a))
+
+    
+    for i in range(b):
+        pri_num, sec_num = map(int, input().split())
+        temp_list=[]
+        for j in range(pri_num,sec_num+1):
+            temp_list.append(basket_list[j-1])
+            pass
+        temp_list.reverse()
+        basket_list[pri_num-1:sec_num] = temp_list
+        pass
+    print(" ".join(basket_list))
+    return
+
+basket_reverse()
