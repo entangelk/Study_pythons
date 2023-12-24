@@ -67,4 +67,20 @@ for row in result_arrays:
 
 def arrays_sum():
     a,b = map(int, input().split())
-    
+    set_list= [list(map(int, input().split())) for i in range(a)]
+    sec_list= [list(map(int, input().split())) for i in range(a)]
+    pass
+
+    for i in range(a):
+        for j in range(b):
+            set_list[i][j] += sec_list[i][j]
+            pass
+        pass
+
+    for i in range(len(set_list)):
+        for j in range(len(set_list[i])):
+            pass
+        print(" ".join(map(str, set_list[i])))
+    return 
+
+arrays_sum()
