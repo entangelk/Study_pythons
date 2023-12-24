@@ -10,7 +10,7 @@
 
 # 출력
 # 첫째 줄에 그룹 단어의 개수를 출력한다.
-
+'''
 get_num = int(input())
 group_word_count = 0
 
@@ -26,7 +26,7 @@ for _ in range(get_num):
         group_word_count += 1
 
 print(group_word_count)
-
+'''
 '''
 get_num = int(input())
 full_count=0
@@ -62,3 +62,24 @@ print(full_count)
 그 값이 서로 동일하지 않다면, 연속해서 나타나는 알파벳 아님
 카운팅 -1
 '''
+
+def group_count():
+    get_num = int(input())
+    save_char = list(input() for i in range(get_num))
+    count = 0
+    for i in range(len(save_char)):
+        for j in range(len(save_char[i])):
+            try:
+                if save_char[i][j] != save_char[i][j+1]:
+                    if save_char[i][j] in save_char[i][j+1:]:
+                        count += 1
+                        break
+                    pass
+                pass
+            except:
+                continue
+        pass
+    return get_num-count
+
+print(group_count())
+

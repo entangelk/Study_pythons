@@ -20,8 +20,17 @@
 #  
 # $S$의 
 # $i$번째 글자를 출력한다.
-
+'''
 char = input()
 count_num = int(input())
 
 print(char[count_num-1])
+'''
+
+def get_char():
+    char=input()
+    num=int(input())
+    result = char[num-1]
+    return result
+
+print(get_char())

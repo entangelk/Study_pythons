@@ -9,7 +9,7 @@
 # 출력
 # 입력받은 그대로 출력한다.
 
-
+'''
 # import sys
 
 while True:
@@ -20,4 +20,16 @@ while True:
         pass
     except:
         break
+'''
+def input_output():
+    while True:
+        try:
+            get_str=input()
+            print(get_str)
+            pass
+        except:
+            break
+        pass
+    return
 
+input_output()

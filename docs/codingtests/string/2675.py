@@ -10,7 +10,7 @@
 
 # 출력
 # 각 테스트 케이스에 대해 P를 출력한다.
-
+'''
 get_num = int(input())
 result_list=[]
 
@@ -25,5 +25,17 @@ for i in range(get_num):
     print("")
     result_list=[]
     pass
+'''
+
+def repeat_char():
+    get_num=int(input())
+    for i in range(get_num):
+        a,b = map(str, input().split())
+        result = list(b[j]*int(a) for j in range(len(b)))
+        print("".join(result))
+        pass
+    return
+
+repeat_char()
 
 

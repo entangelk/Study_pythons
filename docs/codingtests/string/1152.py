@@ -8,7 +8,7 @@
 
 # 출력
 # 첫째 줄에 단어의 개수를 출력한다.
-
+'''
 char = input()
 
 char_list = char.split(" ")
@@ -22,3 +22,11 @@ elif char_list[0] == "" or char_list[len(char_list)-1] == "":
 else : 
     print(len(char_list))
     pass
+'''
+
+def count_char():
+    get_list = list(map(str, input().split()))
+    result = len(get_list)-get_list.count(" ")
+    return result
+
+print(count_char())

@@ -14,7 +14,7 @@
 
 # 출력
 # 첫째 줄에 입력에서 주어진 순서대로 몇 개의 피스를 더하거나 빼야 되는지를 출력한다. 만약 수가 양수라면 동혁이는 그 개수 만큼 피스를 더해야 하는 것이고, 음수라면 제거해야 하는 것이다.
-
+'''
 correct = [1,1,2,2,2,8]
 
 get = list(map(int, input().split()))
@@ -31,3 +31,14 @@ for i in range(len(correct)):
 
 for i in answer:
     print(i, end=" ")
+'''
+
+def chess_check():
+    correct = [1,1,2,2,2,8]
+    get_list = list(map(int, input().split()))
+    result_list=list(str(correct[i]-get_list[i]) for i in range(len(get_list)))
+    print(" ".join(result_list))
+    return
+
+chess_check()
+    

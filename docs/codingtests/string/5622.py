@@ -18,7 +18,7 @@
 
 # 출력
 # 첫째 줄에 다이얼을 걸기 위해서 필요한 최소 시간을 출력한다.
-
+'''
 letters = input()
 result=0
 
@@ -43,3 +43,20 @@ for char in letters:
     pass
 
 print(result)
+'''
+
+def phon_char():
+    result = 0
+    get_char= input()
+    char_list = list(get_char[i] for i in range(len(get_char)))
+    check_list=['ABC','DEF','GHI','JKL','MNO','PQRS','TUV','WXYZ']
+    for i in range(len(char_list)):
+        for j in range(len(check_list)):
+            if char_list[i] in check_list[j]:
+                result += j+3
+                pass
+            pass
+        pass
+    return result
+
+print(phon_char())

@@ -12,7 +12,7 @@
 
 # 출력
 # 첫째 줄에 팰린드롬이면 1, 아니면 0을 출력한다.
-
+'''
 char=input()
 count=0
 
@@ -30,3 +30,22 @@ if count == len(char):
 else :
     print(0)
     pass
+'''
+
+def check_char():
+    get_char=input()
+    for i in range(len(get_char)):
+        if get_char[i] == get_char[-(i+1)]:
+            check=True
+            pass
+        else:
+            check=False
+            print(0)
+            break
+        pass
+    if check:
+        print(1)
+        pass
+    return
+
+check_char()

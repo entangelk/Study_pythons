@@ -8,5 +8,13 @@
 
 # 출력
 # 입력으로 주어진 글자의 아스키 코드 값을 출력한다.
-
+'''
 print(ord(input()))
+'''
+
+def ascii():
+    char=input()
+    result = ord(char)
+    return result
+
+print(ascii())

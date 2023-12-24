@@ -8,7 +8,16 @@
 
 # 출력
 # 첫째 줄에 입력으로 주어진 단어의 길이를 출력한다.
-
+'''
 char = input()
 
 print(len(char))
+
+'''
+
+def len_char():
+    char = input()
+    result = len(char)
+    return result
+
+print(len_char())

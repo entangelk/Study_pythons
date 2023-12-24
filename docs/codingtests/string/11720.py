@@ -8,7 +8,7 @@
 
 # 출력
 # 입력으로 주어진 숫자 N개의 합을 출력한다.
-
+'''
 get_num=(int(input()))
 get_list=(input())
 
@@ -18,3 +18,14 @@ for i in range(get_num):
     pass
 
 print(result)
+'''
+
+def char_sum():
+    get_num=int(input())
+    get_char = input()
+    set_list = list(int(get_char[i]) for i in range(get_num))
+    result=sum(set_list)
+    return result
+
+print(char_sum())
+    

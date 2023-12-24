@@ -8,10 +8,21 @@
 
 # 출력
 # 각 테스트 케이스에 대해서 주어진 문자열의 첫 글자와 마지막 글자를 연속하여 출력한다.
-
+'''
 get_num = int(input())
 char_list=[]
 
 for i in range(get_num):
     char_list.append(input())
     print(char_list[i][0],char_list[i][len(char_list[i])-1], sep="")
+'''
+
+def alpha_omega():
+    get_num = int(input())
+    for i in range(get_num):
+        char=input()
+        print(char[0]+char[-1])
+        pass
+    return
+
+alpha_omega()

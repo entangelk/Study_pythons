@@ -12,7 +12,7 @@
 
 # 출력
 # 첫째 줄에 상수의 대답을 출력한다.
-
+'''
 check_list=input().split()
 
 save_char1 =[]
@@ -28,3 +28,13 @@ temp_list.sort(reverse=True)
 
 for i in range(3):
     print(int(temp_list[0][i]), end="")
+'''
+
+def reverse_num():
+    a,b = map(str, input().split())
+    result_list = [int(a[-1]+a[-2]+a[-3]),int(b[-1]+b[-2]+b[-3])]
+    result_list.sort()
+    return result_list[-1]
+
+print(reverse_num())
+    

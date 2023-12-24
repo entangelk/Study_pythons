@@ -23,7 +23,7 @@
 
 # 출력
 # 입력으로 주어진 단어가 몇 개의 크로아티아 알파벳으로 이루어져 있는지 출력한다.
-
+'''
 set_list = ['c=','c-','dz=','d-','lj','nj','s=','z=']
 get_char = input()
 count=0
@@ -32,3 +32,16 @@ for i in range(len(set_list)):
     pass
 
 print(len(get_char)-count)
+'''
+
+def croatia():
+    cro_alpha=['c=','c-','dz=','d-','lj','nj','s=','z=']
+    get_char=input()
+    count=0
+    for i in range(len(cro_alpha)):
+        count+=get_char.count(cro_alpha[i])
+        pass
+    result = len(get_char)-count
+    return result
+
+print(croatia())

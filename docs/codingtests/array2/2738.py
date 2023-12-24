@@ -35,7 +35,7 @@ for i in range(len(arrays)):
     print("")
     pass
 '''
-
+'''
 get_row, get_col = map(int, input().split())
 
 # 배열 A 초기화
@@ -63,3 +63,8 @@ for row in result_arrays:
     for element in row:
         print(element, end=" ")
     print("")
+'''
+
+def arrays_sum():
+    a,b = map(int, input().split())
+    
