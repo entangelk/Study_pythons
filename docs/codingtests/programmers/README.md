@@ -11,3 +11,10 @@
 ||[py](./level1/12944.py)|평균 구하기|[프로그래머스 12944](https://school.programmers.co.kr/learn/courses/30/lessons/12944)|
 ||[py](./level1/12954.py)|x만큼 간격이 있는 n개의 숫자|[프로그래머스 12954](https://school.programmers.co.kr/learn/courses/30/lessons/12954)|
 ||[py](./level1/87389.py)|나머지가 1이 되는 수 찾기|[프로그래머스 87389](https://school.programmers.co.kr/learn/courses/30/lessons/87389)|
+||[py](./level1/12947.py)|하샤드 수|[프로그래머스 12947](https://school.programmers.co.kr/learn/courses/30/lessons/12947)|
+||[py](./level1/12912.py)|두 정수 사이의 합|[프로그래머스 12912](https://school.programmers.co.kr/learn/courses/30/lessons/12912)|
+||[py](./level1/12943.py)|콜라츠 추측|[프로그래머스 12943](https://school.programmers.co.kr/learn/courses/30/lessons/12943)|
+||[py](./level1/76501.py)|음양 더하기|[프로그래머스 76501](https://school.programmers.co.kr/learn/courses/30/lessons/76501)|
+||[py](./level1/12919.py)|서울에서 김서방 찾기|[프로그래머스 12919](https://school.programmers.co.kr/learn/courses/30/lessons/12919)|
+||[py](./level1/12910.py)|나누어 떨어지는 숫자 배열|[프로그래머스 12910](https://school.programmers.co.kr/learn/courses/30/lessons/12910)|
+||[py](./level1/86051.py)|없는 숫자 더하기|[프로그래머스 86051](https://school.programmers.co.kr/learn/courses/30/lessons/86051)|
