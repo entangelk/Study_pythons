@@ -18,3 +18,8 @@
 ||[py](./level1/12919.py)|서울에서 김서방 찾기|[프로그래머스 12919](https://school.programmers.co.kr/learn/courses/30/lessons/12919)|
 ||[py](./level1/12910.py)|나누어 떨어지는 숫자 배열|[프로그래머스 12910](https://school.programmers.co.kr/learn/courses/30/lessons/12910)|
 ||[py](./level1/86051.py)|없는 숫자 더하기|[프로그래머스 86051](https://school.programmers.co.kr/learn/courses/30/lessons/86051)|
+||[py](./level1/12948.py)|핸드폰 번호 가리기|[프로그래머스 12948](https://school.programmers.co.kr/learn/courses/30/lessons/12948)|
+||[py](./level1/12935.py)|제일 작은 수 제거하기|[프로그래머스 12935](https://school.programmers.co.kr/learn/courses/30/lessons/12935)|
+||[py](./level1/12903.py)|가운데 글자 가져오기|[프로그래머스 12903](https://school.programmers.co.kr/learn/courses/30/lessons/12903)|
+||[py](./level1/70128.py)|내적|[프로그래머스 70128](https://school.programmers.co.kr/learn/courses/30/lessons/70128)|
+||[py](./level1/12922.py)|수박수박수박수박수박수?|[프로그래머스 12922](https://school.programmers.co.kr/learn/courses/30/lessons/12922)|

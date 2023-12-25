@@ -12,4 +12,12 @@
 # "01033334444"	"*******4444"
 # "027778888"	"*****8888"
 
-asdfgasdfg
+def solution(phone_number):
+    answer = ''
+    set_list=list(phone_number)
+    for i in range(len(set_list)-4):
+        set_list[-(i+5)] = '*'
+        pass
+    answer = "".join(set_list)
+        
+    return answer
