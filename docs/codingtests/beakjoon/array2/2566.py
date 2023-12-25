@@ -48,4 +48,16 @@ for i in range(9):
     except:
         continue
 '''
-def 
+def nine_max():
+    get_list = [list(map(int,input().split())) for i in range(9)]
+    max_num=sorted(get_list[0])[-1]
+    for i in range(len(get_list)):
+        if max_num <= sorted(get_list[i])[-1]:
+            max_num = sorted(get_list[i])[-1]
+            position_list=[str(i+1),str(get_list[i].index(max_num)+1)]
+            pass
+    print(max_num)
+    print(" ".join(position_list))
+    return
+
+nine_max()

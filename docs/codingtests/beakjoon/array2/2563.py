@@ -12,7 +12,7 @@
 
 # 출력
 # 첫째 줄에 색종이가 붙은 검은 영역의 넓이를 출력한다.
-
+'''
 get_num = int(input())
 
 count=0
@@ -35,3 +35,24 @@ for i in range(100):
 
 print(count)
 
+'''
+
+def square_area():
+    get_num=int(input())
+    area_list=list([0 for i in range(100)] for j in range(100))
+    count=0
+    for i in range(get_num):
+        a,b = map(int, input().split())
+        for j in range(10):
+            for k in range(10):
+                area_list[a+j][b+k] = 1
+                pass
+            pass
+        pass
+    for i in range(100):
+        count += area_list[i].count(1)
+        pass
+    return count
+
+
+print(square_area())

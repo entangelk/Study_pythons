@@ -27,7 +27,7 @@
 
 # 출력
 # 영석이가 세로로 읽은 순서대로 글자들을 출력한다. 이때, 글자들을 공백 없이 연속해서 출력한다. 
-
+'''
 full_board = []
 
 for i in range(5):
@@ -41,3 +41,19 @@ for i in range(15):
             pass
         except:
             continue
+'''
+
+def read_row():
+    get_list=list(input() for i in range(5))
+    for i in range(15):
+        for j in range(5):
+            try :
+                print(get_list[j][i],end="")
+                pass
+            except:
+                pass
+            pass
+        pass
+    return
+
+read_row()
