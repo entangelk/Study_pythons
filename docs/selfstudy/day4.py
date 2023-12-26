@@ -39,9 +39,11 @@ def num_baseball():
         if len(set_num) != 3:
             print('입력 형식이 잘못되었습니다. 처음 세팅할 서로 다른 숫자 3개를 입력해주세요')
             continue
+        elif set_num[0] == set_num[1] or set_num[0] == set_num[2] or set_num[1]==set_num[2]:
+            print('같은 숫자는 세팅할 수 없습니다. 처음 세팅할 서로 다른 숫자 3개를 입력해주세요')
+            continue
         else:
             break
-        pass
 
     while True:
         strike_count=0
@@ -49,6 +51,9 @@ def num_baseball():
         get_num = list(input())
         if len(get_num) != 3:
             print('입력 형식이 잘못되었습니다. 확인하실 숫자 3개를 입력해주세요')
+            continue
+        elif get_num[0] == get_num[1] or get_num[0] == get_num[2] or get_num[1]==get_num[2]:
+            print('같은 숫자는 확인할 수 없습니다. 정답과 확인할 서로 다른 숫자 3개를 입력해주세요')
             continue
         else:
             for i in range(len(get_num)):
@@ -60,14 +65,14 @@ def num_baseball():
                         ball_count+=1
                         pass
                     pass
+            if strike_count==0 and ball_count==0:
+                print('아웃')
+                pass
+            else:
+                print('{}S {}B'.format(strike_count,ball_count))
                 pass
             pass
-        if strike_count==0 and ball_count==0:
-            print('아웃')
-            pass
-        else:
-            print('{}S {}B'.format(strike_count,ball_count))
-            pass
+
         if strike_count==3:
             print('정답입니다. 프로그램을 종료합니다.')
             break
