@@ -34,48 +34,48 @@
 
 def num_baseball():
 
-    while True:
-        set_num = list(input())
-        if len(set_num) != 3:
+    while True: # 입력 부분
+        set_num = list(input()) #초기 세팅 숫자 문자열로 입력받아 리스트에 저장
+        if len(set_num) != 3:   # 초기 세팅 숫자의 갯수가 3개가 아니라면
             print('입력 형식이 잘못되었습니다. 처음 세팅할 서로 다른 숫자 3개를 입력해주세요')
             continue
-        elif set_num[0] == set_num[1] or set_num[0] == set_num[2] or set_num[1]==set_num[2]:
+        elif set_num[0] == set_num[1] or set_num[0] == set_num[2] or set_num[1]==set_num[2]: # 초기 세팅 숫자가 서로 다른 숫자가 아니라면
             print('같은 숫자는 세팅할 수 없습니다. 처음 세팅할 서로 다른 숫자 3개를 입력해주세요')
             continue
-        else:
-            break
+        else:   # 정상적으로 입력되었을 시
+            break   # 입력 반복문 종료
 
     while True:
-        strike_count=0
-        ball_count=0
-        get_num = list(input())
-        if len(get_num) != 3:
+        strike_count=0  # 스트라이크 카운트 초기화
+        ball_count=0    # 볼 카운트 초기화
+        get_num = list(input()) # 정답 맞춰볼 숫자 문자열로 입력받아 리스트에 저장
+        if len(get_num) != 3:   # 맞춰볼 숫자가 3개가 아니라면
             print('입력 형식이 잘못되었습니다. 확인하실 숫자 3개를 입력해주세요')
             continue
-        elif get_num[0] == get_num[1] or get_num[0] == get_num[2] or get_num[1]==get_num[2]:
+        elif get_num[0] == get_num[1] or get_num[0] == get_num[2] or get_num[1]==get_num[2]: # 맞춰볼 숫자가 서로 다른 숫자가 아니라면
             print('같은 숫자는 확인할 수 없습니다. 정답과 확인할 서로 다른 숫자 3개를 입력해주세요')
             continue
         else:
-            for i in range(len(get_num)):
-                if set_num[i] == get_num[i]:
-                    strike_count+=1
+            for i in range(len(get_num)):   
+                if set_num[i] == get_num[i]: # 각 자리수 비교하여
+                    strike_count+=1 # 맞다면 스트라이크 카운트 올리기
                     pass
                 else :
-                    if set_num[i] in get_num:
-                        ball_count+=1
+                    if set_num[i] in get_num:   # 각 자리수가 같지 않을 때, 이외의 자리에 숫자가 존재한다면
+                        ball_count+=1   # 볼카운트 올리기
                         pass
                     pass
-            if strike_count==0 and ball_count==0:
+            if strike_count==0 and ball_count==0:   # 스트라이크, 볼 카운트가 0이라면
                 print('아웃')
                 pass
             else:
-                print('{}S {}B'.format(strike_count,ball_count))
+                print('{}S {}B'.format(strike_count,ball_count))    # 스트라이크, 볼 카운트가 0이 아니라면 결과 출력
                 pass
             pass
 
-        if strike_count==3:
+        if strike_count==3: # 만약 스트라이크 카운트가 3일 때
             print('정답입니다. 프로그램을 종료합니다.')
-            break
+            break   # 반목문 종료
     return
 
 num_baseball()
