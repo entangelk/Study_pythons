@@ -19,3 +19,14 @@
 
 # 참고 사항
 
+def solution(price, money, count):
+    for i in range(count):
+        money -= price*(i+1)
+        pass
+    if money > 0:
+        answer = 0
+        pass
+    else :
+        answer = -money
+
+    return answer

@@ -25,3 +25,5 @@
 ||[py](./level1/12922.py)|수박수박수박수박수박수?|[프로그래머스 12922](https://school.programmers.co.kr/learn/courses/30/lessons/12922)|
 ||[py](./level1/77884.py)|약수의 개수와 덧셈|[프로그래머스 77884](https://school.programmers.co.kr/learn/courses/30/lessons/77884)|
 ||[py](./level1/12917.py)|문자열 내림차순으로 배치하기|[프로그래머스 12917](https://school.programmers.co.kr/learn/courses/30/lessons/12917)|
+||[py](./level1/82612.py)|부족한 금액 계산하기|[프로그래머스 82612](https://school.programmers.co.kr/learn/courses/30/lessons/82612)|
+||[py](./level1/12918.py)|문자열 다루기 기본|[프로그래머스 12918](https://school.programmers.co.kr/learn/courses/30/lessons/12918)|
