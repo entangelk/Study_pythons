@@ -34,22 +34,18 @@
 def solution(left, right):
     answer = 0
     set_list = list(left+i for i in range(right-left+1))
-    
+
     for i in range(len(set_list)):
         index_list=[]
         for j in range(set_list[i]):
-                if set_list[i]%(i+1)==0:
-                    index_list.append(i)
+                if set_list[i]%(j+1)==0:
+                    index_list.append(j+1)
                     pass
                 pass
-        for j in range(len(index_list)):
-            if len(index_list)%2==0:
-                answer += index_list[j]
-                pass
-            else :
-                answer -= index_list[j]
-            
-
+        if len(index_list)%2==0:
+            answer += set_list[i]
+            pass
+        else :
+            answer -= set_list[i]
+            pass
     return answer
-
-print(solution(24,27))asdfasdfasdf
