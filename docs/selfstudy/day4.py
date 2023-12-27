@@ -36,14 +36,14 @@ def num_baseball():
 
     while True: # 입력 부분
         set_num = list(input()) #초기 세팅 숫자 문자열로 입력받아 리스트에 저장
-        try:
-            for i in range(len(set_num)):
+        try:    # 초기 세팅 숫자가 숫자인지 판별
+            for i in range(len(set_num)):   
                 int(set_num[i])
                 pass
-        except:
+        except: # 숫자가 아닌 문자일시
             print('입력 형식이 잘못되었습니다. 처음 세팅할 서로 다른 숫자 3개를 입력해주세요')
-            continue
-        if len(set(set_num)) != 3:   # 초기 세팅 숫자의 갯수가 3개가 아니라면
+            continue    # 다시 처음부터
+        if len(set(set_num)) != 3:   # 초기 세팅 숫자의 갯수가 겹치지 않는 3개가 아니라면
             print('입력 형식이 잘못되었습니다. 처음 세팅할 서로 다른 숫자 3개를 입력해주세요')
             continue
         else:   # 정상적으로 입력되었을 시
@@ -53,11 +53,11 @@ def num_baseball():
         strike_count=0  # 스트라이크 카운트 초기화
         ball_count=0    # 볼 카운트 초기화
         get_num = list(input()) # 정답 맞춰볼 숫자 문자열로 입력받아 리스트에 저장
-        try:
+        try: # 확인할 숫자가 숫자인지 판별
             for i in range(len(get_num)):
                 int(get_num[i])
                 pass
-        except:
+        except: # 숫자가 아닌 문자일시
             print('입력 형식이 잘못되었습니다. 처음 세팅할 서로 다른 숫자 3개를 입력해주세요')
             continue
         if len(set(get_num)) != 3:   # 맞춰볼 숫자가 3개가 아니라면
