@@ -1,6 +1,4 @@
-asdflist=[]
-a,b,c,d=None,None,None,None
-for i in [a,b,c,d]:
-    asdflist.append(i)
+a= 5
+b= 0
 
-print(asdflist)
+print((a*17+b*3)/20)

@@ -31,3 +31,11 @@
 ||[py](./level1/12969.py)|직사각형 별찍기|[프로그래머스 12969](https://school.programmers.co.kr/learn/courses/30/lessons/12969)|
 ||[py](./level1/12940.py)|최대공약수와 최소공배수|[프로그래머스 12940](https://school.programmers.co.kr/learn/courses/30/lessons/12940)|
 ||[py](./level1/12906.py)|같은 숫자는 싫어|[프로그래머스 12906](https://school.programmers.co.kr/learn/courses/30/lessons/12906)|
+||[py](./level1/68935.py)|3진법 뒤집기|[프로그래머스 68935](https://school.programmers.co.kr/learn/courses/30/lessons/68935)|
+||[py](./level1/12982.py)|예산|[프로그래머스 12982](https://school.programmers.co.kr/learn/courses/30/lessons/12982)|
+||[py](./level1/12930.py)|이상한 문자 만들기|[프로그래머스 12930](https://school.programmers.co.kr/learn/courses/30/lessons/12930)|
+||[py](./level1/147355.py)|크기가 작은 부분문자열|[프로그래머스 147355](https://school.programmers.co.kr/learn/courses/30/lessons/147355)|
+||[py](./level1/131705.py)|삼총사|[프로그래머스 131705](https://school.programmers.co.kr/learn/courses/30/lessons/131705)|
+||[py](./level1/86491.py)|삼최소직사각형|[프로그래머스 86491](https://school.programmers.co.kr/learn/courses/30/lessons/86491)|
+||[py](./level1/12926.py)|시저 암호|[프로그래머스 12926](https://school.programmers.co.kr/learn/courses/30/lessons/12926)|
+||[py](./level1/81301.py)|숫자 문자열과 영단어|[프로그래머스 81301](https://school.programmers.co.kr/learn/courses/30/lessons/81301)|

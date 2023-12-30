@@ -25,12 +25,11 @@
 # 따라서 229를 return 해야 합니다.
 
 def solution(n):
-    get_list=[]
-    for i in range(n):
-       if n//3**i==0:
-        index=i+1
-    for i in range(index):
-       get_list[i]= n//3**i
-       for j in range(n%3**i):
-    answer = 0
+    char=''
+    while True:
+        n,b = divmod(n,3)
+        char += str(b)
+        if n == 0:
+            break
+    answer = int(char,3)
     return answer
