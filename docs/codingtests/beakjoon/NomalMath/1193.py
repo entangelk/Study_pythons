@@ -20,6 +20,20 @@
 # 첫째 줄에 분수를 출력한다.
 
 def solution():
-    n = int(input())
+    x = int(input())
+    n=0
+    while True:
+        n+=1
+        a = ((n*(n-1))/2)+1
+        if x < a:
+            get_num = a-x
+            break
+    if n%2 != 0:
+        left, right = n-get_num, get_num
+    else:
+        left, right = get_num, n-get_num
+    result = '{}/{}'.format(round(left),round(right))
+    return result
 
-
+print(solution())
+    
