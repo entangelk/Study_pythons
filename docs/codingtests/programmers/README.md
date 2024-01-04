@@ -39,3 +39,5 @@
 ||[py](./level1/86491.py)|삼최소직사각형|[프로그래머스 86491](https://school.programmers.co.kr/learn/courses/30/lessons/86491)|
 ||[py](./level1/12926.py)|시저 암호|[프로그래머스 12926](https://school.programmers.co.kr/learn/courses/30/lessons/12926)|
 ||[py](./level1/81301.py)|숫자 문자열과 영단어|[프로그래머스 81301](https://school.programmers.co.kr/learn/courses/30/lessons/81301)|
+||[py](./level1/142086.py)|가장 가까운 같은 글자|[프로그래머스 142086](https://school.programmers.co.kr/learn/courses/30/lessons/142086)|
+
