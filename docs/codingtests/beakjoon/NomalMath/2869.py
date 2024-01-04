@@ -25,8 +25,10 @@ def solution():
         counter +=1
     return counter
 '''
+import math
+
 def solution():
     A,B,V = map(int, input().split())
-    answer = V-A+2*B - 1
-    return answer
+    answer = math.ceil((V-A)/(A-B))
+    return answer+1
 print(solution())
