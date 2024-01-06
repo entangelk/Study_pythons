@@ -74,6 +74,4 @@ def solution(data, get_num, get_level):
 
 a, b = input().split()
 print(solution(seting_data, a, b))
-
 '''
-
