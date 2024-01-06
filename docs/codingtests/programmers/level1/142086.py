@@ -30,15 +30,15 @@
 # 설명 생략
 
 def solution(s):
-    answer = []
-    set_list=list(s)
-    for i in range(len(set_list)):
-        if set_list.index(set_list[i]) == 0:
+    get_list = list(s)
+    answer=[]
+    for i,doc in enumerate(get_list):
+        if get_list.index(doc) == i:
             answer.append(-1)
-        else :
-            answer.append(set_list.index(set_list[i]))
-    
-    pass
+            pass
+        else:
+            for j in range(i-1, -1, -1):
+                if get_list[i] == get_list[j]:
+                    answer.append(i-j)
+                    break
     return answer
-
-solution("banana")

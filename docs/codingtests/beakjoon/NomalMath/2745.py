@@ -15,36 +15,11 @@
 # 출력
 # 첫째 줄에 B진법 수 N을 10진법으로 출력한다.
 
-get_str, get_num = map(str, input().split())
+def solution():
+    get_str, get_num = map(str, input().split())
+    answer = int(get_str,int(get_num))
+    return answer
 
-dic_set = {
-    'A':10,
-    'B':11,
-    'C':12,
-    'D':13,
-    'E':14,
-    'F':15,
-    'G':16,
-    'H':17,
-    'I':18,
-    'J':19,
-    'K':20,
-    'L':21,
-    'M':22,
-    'N':23,
-    'O':24,
-    'P':25,
-    'Q':26,
-    'R':27,
-    'S':28,
-    'T':29,
-    'U':30,
-    'V':31,
-    'W':32,
-    'X':33,
-    'Y':34,
-    'Z':35,
-}
+print(solution())
 
-for i in dic_set:
-    dic_set[i]
+

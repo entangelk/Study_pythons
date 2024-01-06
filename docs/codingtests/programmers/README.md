@@ -39,3 +39,7 @@
 ||[py](./level1/86491.py)|삼최소직사각형|[프로그래머스 86491](https://school.programmers.co.kr/learn/courses/30/lessons/86491)|
 ||[py](./level1/12926.py)|시저 암호|[프로그래머스 12926](https://school.programmers.co.kr/learn/courses/30/lessons/12926)|
 ||[py](./level1/81301.py)|숫자 문자열과 영단어|[프로그래머스 81301](https://school.programmers.co.kr/learn/courses/30/lessons/81301)|
+||[py](./level1/142086.py)|가장 가까운 같은 글자|[프로그래머스 142086](https://school.programmers.co.kr/learn/courses/30/lessons/142086)|
+|일반 수학 1|[py](./NomalMath/2745.py)|진법 변환|[백준 2745](https://www.acmicpc.net/problem/2745)|
+||[py](./NomalMath/11005.py)|진법 변환2 - N진법으로 변환|[백준 11005](https://www.acmicpc.net/problem/11005)|
+||[py](./NomalMath/2720.py)|세탁소 사장 동혁|[백준 2720](https://www.acmicpc.net/problem/2720)|

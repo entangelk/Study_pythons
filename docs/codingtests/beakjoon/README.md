@@ -65,3 +65,7 @@
 ||[py](./array2/2566.py)|행렬에서 최댓값, 주소 찾기|[백준 2566](https://www.acmicpc.net/problem/2566)|
 ||[py](./array2/10798.py)|행렬 세로읽기|[백준 10798](https://www.acmicpc.net/problem/10798)|
 ||[py](./array2/2563.py)|색종이 넓이 구하기|[백준 2563](https://www.acmicpc.net/problem/2563)|
+|일반 수학 1|[py](./NomalMath/2745.py)|진법 변환|[백준 2745](https://www.acmicpc.net/problem/2745)|
+||[py](./NomalMath/11005.py)|진법 변환2 - N진법으로 변환|[백준 11005](https://www.acmicpc.net/problem/11005)|
+||[py](./NomalMath/2720.py)|세탁소 사장 동혁|[백준 2720](https://www.acmicpc.net/problem/2720)|
+
