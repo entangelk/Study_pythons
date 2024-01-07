@@ -42,6 +42,12 @@
 ||[py](./level1/81301.py)|숫자 문자열과 영단어|[프로그래머스 81301](https://school.programmers.co.kr/learn/courses/30/lessons/81301)|
 ||[py](./level1/142086.py)|가장 가까운 같은 글자|[프로그래머스 142086](https://school.programmers.co.kr/learn/courses/30/lessons/142086)|
 ||[py](./level1/42748.py)|K번째수|[프로그래머스 42748](https://school.programmers.co.kr/learn/courses/30/lessons/42748)|
+||[py](./level1/134240.py)|푸드 파이트 대회|[프로그래머스 134240](https://school.programmers.co.kr/learn/courses/30/lessons/134240)|
+||[py](./level1/68644.py)|두 개 뽑아서 더하기|[프로그래머스 68644](https://school.programmers.co.kr/learn/courses/30/lessons/68644)|
+||[py](./level1/17681.py)|2018 KAKAO BLIND RECRUITMENT[1차] 비밀지도|[프로그래머스 17681](https://school.programmers.co.kr/learn/courses/30/lessons/17681)|
+
+
+
 
 ### LEVEL2
 
@@ -51,6 +57,8 @@
 |level2|[py](./level2/12951.py)|JadenCase 문자열 만들기|[프로그래머스 12951](https://school.programmers.co.kr/learn/courses/30/lessons/12951)|
 |level2|[py](./level2/12941.py)|최솟값 만들기|[프로그래머스 12941](https://school.programmers.co.kr/learn/courses/30/lessons/12941)|
 |level2|[py](./level2/12909.py)|올바른 괄호 (스택)|[프로그래머스 12909](https://school.programmers.co.kr/learn/courses/30/lessons/12909)|
+|level2|[py](./level2/70129.py)|이진 변환 반복하기|[프로그래머스 70129](https://school.programmers.co.kr/learn/courses/30/lessons/70129)|
+
 
 
 
