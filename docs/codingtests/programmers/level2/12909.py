@@ -20,12 +20,47 @@
 # 입출력 예 설명
 # 입출력 예 #1,2,3,4
 # 문제의 예시와 같습니다.
+'''
+def solution(s):
+    answer = True
+    set_list=list(s)
+    if set_list.count('(') - set_list.count(')')==0:
+        if set_list[0] != '(':
+            answer = False
+        else :
+            counter = 0
+            for i in range(len(set_list)-1):
+                
+                if set_list[i] == set_list[i+1]:
+                    counter += 1
+                else :
+                    for j in range(counter-1):
+                        if set_list[i+1] == set_list[i+j+2]:
+                            pass
+                        else:
+                            answer = False
+    else:
+        answer = False
+
+    return answer
+'''
 
 def solution(s):
     answer = True
     set_list=list(s)
-
-    
-
-
-    return Trueasdfasdf
+    stack =[]
+    if set_list[0] == ')':
+        answer = False
+    else:
+        for i in range(len(set_list)):
+            if set_list[i] == '(':
+                stack.append('(')
+            else:
+                try:
+                    stack.pop()
+                except:
+                    pass
+                pass
+        if len(stack) != 0:
+            answer = False
+    return answer

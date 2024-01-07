@@ -50,5 +50,7 @@
 |level2|[py](./level2/12939.py)|최댓값과 최솟값|[프로그래머스 12939](https://school.programmers.co.kr/learn/courses/30/lessons/12939)|
 |level2|[py](./level2/12951.py)|JadenCase 문자열 만들기|[프로그래머스 12951](https://school.programmers.co.kr/learn/courses/30/lessons/12951)|
 |level2|[py](./level2/12941.py)|최솟값 만들기|[프로그래머스 12941](https://school.programmers.co.kr/learn/courses/30/lessons/12941)|
+|level2|[py](./level2/12909.py)|올바른 괄호 (스택)|[프로그래머스 12909](https://school.programmers.co.kr/learn/courses/30/lessons/12909)|
+
 
 
