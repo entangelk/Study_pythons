@@ -86,6 +86,20 @@
 ||[py](./geometry_tri-squre/10101.py)|각도를 보고 삼각형을 판별하고 분류하는 문제|[백준 10101](https://www.acmicpc.net/problem/10101)|
 ||[py](./geometry_tri-squre/5073.py)|변의 길이를 보고 삼각형을 판별하고 분류하는 문제|[백준 5073](https://www.acmicpc.net/problem/5073)|
 ||[py](./geometry_tri-squre/14215.py)|가능한 한 둘레가 긴 삼각형을 만드는 문제|[백준 14215](https://www.acmicpc.net/problem/14215)|
+|시간복잡도|[py](./Time_complexity/24262.py)|O(1) 시간복잡도|[백준 24262](https://www.acmicpc.net/problem/24262)|
+||[py](./Time_complexity/24263.py)|O(n) 시간복잡도|[백준 24263](https://www.acmicpc.net/problem/24263)|
+||[py](./Time_complexity/24264.py)|O(n^2) 시간복잡도|[백준 24264](https://www.acmicpc.net/problem/24264)|
+||[py](./Time_complexity/24265.py)|O((n-a)(n-b)/c) 시간복잡도|[백준 24265](https://www.acmicpc.net/problem/24265)|
+||[py](./Time_complexity/24266.py)|O(n^3) 시간복잡도|[백준 24266](https://www.acmicpc.net/problem/24266)|
+||[py](./Time_complexity/24266.py)|O((n-a)(n-b)(n-c)/d) 시간복잡도|[백준 24266](https://www.acmicpc.net/problem/24266)|
+||[py](./Time_complexity/24313.py)|알고리즘 수업 - 점근적 표기 1|[백준 24313](https://www.acmicpc.net/problem/24313)|
+
+
+
+
+
+
+
 
 
 
