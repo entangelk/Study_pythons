@@ -27,13 +27,16 @@ def solution():
         for j in range(i+1,len(set_list)):
             for k in range(j+1,len(set_list)):
                 count_list.append(set_list[i]+set_list[j]+set_list[k])
+    set(count_list)
     check_list=[]
+    answer_list=[]
     for i in range(len(count_list)):
         if m-count_list[i] >= 0:
             check_list.append(m-count_list[i])
+            answer_list.append(count_list[i])
         else:
             pass
-    answer = count_list[check_list.index(sorted(check_list)[0])]
+    answer = answer_list[check_list.index(sorted(check_list)[0])]
     return answer
 
 print(solution())

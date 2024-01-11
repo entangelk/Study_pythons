@@ -93,6 +93,9 @@
 ||[py](./Time_complexity/24266.py)|O(n^3) 시간복잡도|[백준 24266](https://www.acmicpc.net/problem/24266)|
 ||[py](./Time_complexity/24266.py)|O((n-a)(n-b)(n-c)/d) 시간복잡도|[백준 24266](https://www.acmicpc.net/problem/24266)|
 ||[py](./Time_complexity/24313.py)|알고리즘 수업 - 점근적 표기 1|[백준 24313](https://www.acmicpc.net/problem/24313)|
+|브루트포스|[py](./brute_force/2798.py)|블랙잭|[백준 2798](https://www.acmicpc.net/problem/2798)|
+||[py](./brute_force/2231.py)|분해합|[백준 2231](https://www.acmicpc.net/problem/2231)|
+
 
 
 
