@@ -34,6 +34,12 @@
 # $x$와 
 # $y$를 공백으로 구분해 출력한다.
 
-def solution():
-    get_list = map(int, input().split())
-    
+def solve_equations():
+    a, b, c, d, e, f = map(int, input().split())
+
+    x = (c*e - b*f) / (a*e - b*d)
+    y = (a*f - c*d) / (a*e - b*d)
+
+    print(int(x), int(y))
+
+solve_equations()

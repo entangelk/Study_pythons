@@ -45,6 +45,8 @@
 ||[py](./level1/134240.py)|푸드 파이트 대회|[프로그래머스 134240](https://school.programmers.co.kr/learn/courses/30/lessons/134240)|
 ||[py](./level1/68644.py)|두 개 뽑아서 더하기|[프로그래머스 68644](https://school.programmers.co.kr/learn/courses/30/lessons/68644)|
 ||[py](./level1/17681.py)|2018 KAKAO BLIND RECRUITMENT[1차] 비밀지도|[프로그래머스 17681](https://school.programmers.co.kr/learn/courses/30/lessons/17681)|
+||[py](./level1/132267.py)|콜라문제|[프로그래머스 132267](https://school.programmers.co.kr/learn/courses/30/lessons/132267)|
+
 
 
 
@@ -58,6 +60,8 @@
 |level2|[py](./level2/12941.py)|최솟값 만들기|[프로그래머스 12941](https://school.programmers.co.kr/learn/courses/30/lessons/12941)|
 |level2|[py](./level2/12909.py)|올바른 괄호 (스택)|[프로그래머스 12909](https://school.programmers.co.kr/learn/courses/30/lessons/12909)|
 |level2|[py](./level2/70129.py)|이진 변환 반복하기|[프로그래머스 70129](https://school.programmers.co.kr/learn/courses/30/lessons/70129)|
+|level2|[py](./level2/12924.py)|숫자의 표현 - 연속되는 숫자의 합으로 표현|[프로그래머스 12924](https://school.programmers.co.kr/learn/courses/30/lessons/12924)|
+
 
 
 
