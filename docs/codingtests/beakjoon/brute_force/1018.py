@@ -13,3 +13,23 @@
 # 출력
 # 첫째 줄에 지민이가 다시 칠해야 하는 정사각형 개수의 최솟값을 출력한다.
 
+def solution_input(a,b):
+    board_list=[]
+
+    for i in range(a):
+        board_list.append(input())
+
+    return board_list
+
+def soultion_count(get_list):
+    counter=0
+    for i in range(len(get_list)):
+        for j in range(len(get_list[i])):
+            set
+    return
+
+
+a,b = map(int, input().split())
+
+board = solution_input(a,b)
+soultion_count(board)
