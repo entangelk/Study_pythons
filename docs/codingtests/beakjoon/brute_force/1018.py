@@ -21,15 +21,38 @@ def solution_input(a,b):
 
     return board_list
 
-def soultion_count(get_list):
-    counter=0
-    for i in range(len(get_list)):
-        for j in range(len(get_list[i])):
-            set
-    return
+def soultion_slice(board_list):
+    slice_total =[]
+    for i in range(len(board_list)-7):
+        for j in range(len(board_list[i])-7):
+            slice_list = []
+            for k in range(8):
+                slice_list.append([board_list[i:i+8][k][j:j+8]])
+            pass
+        slice_total.append(slice_list)
+    return slice_total
 
+def solution_count(slice_total):
+    answer_list=[]
+    for i in range(len(slice_total)):
+        count = 0
+        for j in range(len(slice_total[i])-1):
+            if slice_total[i][j][0][-1] != slice_total[i][j+1][0][0]:
+                for k in range(len(slice_total[i][j][0])-1):
+                    pass
+                    if slice_total[i][j][0][k] == slice_total[i][j][0][k+1]:
+                        count += 1
+            else:
+                for k in range(len(slice_total[i][j][0])-1):
+                    if slice_total[i][j][0][k] == slice_total[i][j+1][0][k]:
+                        count += 1
+        answer_list.append(count)
+    answer_list.sort()
+    return answer_list[0]
 
 a,b = map(int, input().split())
 
 board = solution_input(a,b)
-soultion_count(board)
+slice_board = soultion_slice(board)
+answer = solution_count(slice_board)
+print(answer)
