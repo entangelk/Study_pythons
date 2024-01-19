@@ -27,25 +27,42 @@ def soultion_slice(board_list):
         for j in range(len(board_list[i])-7):
             slice_list = []
             for k in range(8):
-                slice_list.append([board_list[i:i+8][k][j:j+8]])
+                slice_list.append(list(board_list[i:i+8][k][j:j+8]))
             pass
-        slice_total.append(slice_list)
+            slice_total.append(slice_list)
     return slice_total
 
 def solution_count(slice_total):
     answer_list=[]
     for i in range(len(slice_total)):
         count = 0
-        for j in range(len(slice_total[i])-1):
-            if slice_total[i][j][0][-1] != slice_total[i][j+1][0][0]:
-                for k in range(len(slice_total[i][j][0])-1):
-                    pass
-                    if slice_total[i][j][0][k] == slice_total[i][j][0][k+1]:
-                        count += 1
-            else:
-                for k in range(len(slice_total[i][j][0])-1):
-                    if slice_total[i][j][0][k] == slice_total[i][j+1][0][k]:
-                        count += 1
+        for j in range(len(slice_total[i])):
+            try:
+                if slice_total[i][j][0] == slice_total[i][j+1][0]:
+                    if slice_total[i][j][0] == 'B':
+                        try:
+                            slice_total[i][j+1][0] = 'W'
+                            count +=1
+                        except:
+                            pass
+                    else :
+                        try:
+                            slice_total[i][j+1][0] = 'B'
+                            count +=1
+                        except:
+                            pass
+            except:
+                pass
+            for k in range(len(slice_total[i][j])-1):
+                if slice_total[i][j][k] == 'B':
+                    if slice_total[i][j][k] == slice_total[i][j][k+1]:
+                        slice_total[i][j][k+1] = 'W'
+                        count+=1
+                else :
+                    if slice_total[i][j][k] == slice_total[i][j][k+1]:
+                        slice_total[i][j][k+1] = 'B'
+                        count+=1
+
         answer_list.append(count)
         
     answer_list.sort()
