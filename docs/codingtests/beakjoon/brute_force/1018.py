@@ -47,6 +47,7 @@ def solution_count(slice_total):
                     if slice_total[i][j][0][k] == slice_total[i][j+1][0][k]:
                         count += 1
         answer_list.append(count)
+        
     answer_list.sort()
     return answer_list[0]
 
