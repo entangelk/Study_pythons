@@ -96,6 +96,22 @@
 |브루트포스|[py](./brute_force/2798.py)|블랙잭|[백준 2798](https://www.acmicpc.net/problem/2798)|
 ||[py](./brute_force/2231.py)|분해합|[백준 2231](https://www.acmicpc.net/problem/2231)|
 ||[py](./brute_force/19532.py)|모든 x와 모든 y를 시도하여 해를 구하는 문제|[백준 19532](https://www.acmicpc.net/problem/19532)|
+||[py](./brute_force/1018.py)|체스판 다시 칠하기|[백준 1018](https://www.acmicpc.net/problem/1018)|
+||[py](./brute_force/1436.py)|영화감독 숌 666이 포함된 숫자 찾기|[백준 1436](https://www.acmicpc.net/problem/1436)|
+||[py](./brute_force/2839.py)|설탕 배달 최소 봉지수 계산|[백준 2839](https://www.acmicpc.net/problem/2839)|
+|정렬|[py](./sort/2750.py)|수 정렬하기|[백준 2750](https://www.acmicpc.net/problem/2750)|
+||[py](./sort/2587.py)|평균값과 중앙값|[백준 2587](https://www.acmicpc.net/problem/2587)|
+||[py](./sort/25305.py)|커트라인|[백준 25305](https://www.acmicpc.net/problem/25305)|
+||[py](./sort/2751.py)|적은 메모리에서 수 역으로 정렬|[백준 2751](https://www.acmicpc.net/problem/2751)|
+||[py](./sort/10989.py)|적은 메모리에서 카운팅정렬|[백준 10989](https://www.acmicpc.net/problem/10989)|
+
+
+
+
+
+
+
+
 
 
 

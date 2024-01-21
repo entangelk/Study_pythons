@@ -32,45 +32,85 @@ def soultion_slice(board_list):
             slice_total.append(slice_list)
     return slice_total
 
-def solution_count(slice_total):
-    answer_list=[]
+def slice_reverse(slice_total):
+    final_list = []
     for i in range(len(slice_total)):
-        count = 0
+        revers_total = []
         for j in range(len(slice_total[i])):
-            try:
-                if slice_total[i][j][0] == slice_total[i][j+1][0]:
-                    if slice_total[i][j][0] == 'B':
-                        try:
-                            slice_total[i][j+1][0] = 'W'
-                            count +=1
-                        except:
-                            pass
-                    else :
-                        try:
-                            slice_total[i][j+1][0] = 'B'
-                            count +=1
-                        except:
-                            pass
-            except:
+            reversed_slice_list =[]
+            for k in slice_total[i][j][-1::-1]:
+                reversed_slice_list.append(k)
                 pass
-            for k in range(len(slice_total[i][j])-1):
-                if slice_total[i][j][k] == 'B':
-                    if slice_total[i][j][k] == slice_total[i][j][k+1]:
-                        slice_total[i][j][k+1] = 'W'
-                        count+=1
-                else :
-                    if slice_total[i][j][k] == slice_total[i][j][k+1]:
-                        slice_total[i][j][k+1] = 'B'
-                        count+=1
-
-        answer_list.append(count)
+            revers_total.append(reversed_slice_list)
+        final_list.append(revers_total)
         
-    answer_list.sort()
-    return answer_list[0]
+    return final_list
+
+# def solution_count(slice_total):
+#     answer_list=[]
+#     for i in range(len(slice_total)):
+#         count = 0
+#         for j in range(len(slice_total[i])):
+#             try:
+#                 if slice_total[i][j][0] == slice_total[i][j+1][0]:
+#                     if slice_total[i][j][0] == 'B':
+#                         try:
+#                             slice_total[i][j+1][0] = 'W'
+#                             count +=1
+#                         except:
+#                             pass
+#                     else :
+#                         try:
+#                             slice_total[i][j+1][0] = 'B'
+#                             count +=1
+#                         except:
+#                             pass
+#             except:
+#                 pass
+#             for k in range(len(slice_total[i][j])-1):
+#                 if slice_total[i][j][k] == 'B':
+#                     if slice_total[i][j][k] == slice_total[i][j][k+1]:
+#                         slice_total[i][j][k+1] = 'W'
+#                         count+=1
+#                 else :
+#                     if slice_total[i][j][k] == slice_total[i][j][k+1]:
+#                         slice_total[i][j][k+1] = 'B'
+#                         count+=1
+
+#         answer_list.append(count)
+        
+#     return min(answer_list)
+
+
+def solution_count(slice_total):
+    answer_list = []
+    for slice in slice_total:
+        for start_color in ('B', 'W'):
+            count = 0
+            for i in range(8):
+                for j in range(8):
+                    if ((i + j) % 2 == 0 and slice[i][j] != start_color) or ((i + j) % 2 == 1 and slice[i][j] == start_color):
+                        count += 1
+            answer_list.append(count)
+    return min(answer_list)
+
+def solution(counter1,counter2):
+    if counter1 <= counter2:
+        answer = counter1
+    else:
+        answer = counter2
+    return answer
 
 a,b = map(int, input().split())
 
 board = solution_input(a,b)
-slice_board = soultion_slice(board)
-answer = solution_count(slice_board)
+slice_board= soultion_slice(board)
+slice_reverse_board = slice_reverse(slice_board)
+
+count_list = solution_count(slice_board)
+count_reverse_list = solution_count(slice_reverse_board)
+
+answer = solution(count_list,count_reverse_list)
+
 print(answer)
+
