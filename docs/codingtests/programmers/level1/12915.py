@@ -22,11 +22,14 @@
 # "abce"와 "abcd", "cdx"의 2번째 인덱스 값은 "c", "c", "x"입니다. 따라서 정렬 후에는 "cdx"가 가장 뒤에 위치합니다. "abce"와 "abcd"는 사전순으로 정렬하면 "abcd"가 우선하므로, 답은 ["abcd", "abce", "cdx"] 입니다.
 
 def solution(strings, n):
-    n = int(input())
-    count_list=[]
-    for i in range(len(strings)): 
-        count_list.append(strings[i][n])
+    zip_list =[]
+    for i in strings:
+        zip_list.append(i[n])
+    strings_zip = list(zip(strings,zip_list))
+    strings_zip.sort(key= lambda x:(x[1], x[0]))
+    answer_list = []
+    for i in strings_zip:
+        answer_list.append(i[0])
+    return answer_list
 
-    return answer
-
-미완성
+solution(["abce", "abcd", "cdx"],	2)

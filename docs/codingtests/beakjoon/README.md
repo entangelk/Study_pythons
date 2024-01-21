@@ -104,6 +104,22 @@
 ||[py](./sort/25305.py)|커트라인|[백준 25305](https://www.acmicpc.net/problem/25305)|
 ||[py](./sort/2751.py)|적은 메모리에서 수 역으로 정렬|[백준 2751](https://www.acmicpc.net/problem/2751)|
 ||[py](./sort/10989.py)|적은 메모리에서 카운팅정렬|[백준 10989](https://www.acmicpc.net/problem/10989)|
+||[py](./sort/1427.py)|소트인사이드 숫자 역순정렬|[백준 1427](https://www.acmicpc.net/problem/1427)|
+||[py](./sort/11650.py)|좌표 x축 기준 정렬하기|[백준 11650](https://www.acmicpc.net/problem/11650)|
+||[py](./sort/11651.py)|좌표 y축 기준 정렬하기|[백준 11651](https://www.acmicpc.net/problem/11651)|
+||[py](./sort/1181.py)|단어 정렬 길이, 사전 순|[백준 1181](https://www.acmicpc.net/problem/1181)|
+||[py](./sort/10814.py)|나이순 정렬, zip 튜플 정렬|[백준 10814](https://www.acmicpc.net/problem/10814)|
+||[py](./sort/18870.py)|좌표 압축|[백준 18870](https://www.acmicpc.net/problem/18870)|
+|집합과 맵|[py](./set_map/10815.py)|숫자 카드|[백준 10815](https://www.acmicpc.net/problem/10815)|
+||[py](./set_map/14425.py)|문자열 집합|[백준 14425](https://www.acmicpc.net/problem/14425)|
+
+
+
+
+
+
+
+
 
 
 

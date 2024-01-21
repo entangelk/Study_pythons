@@ -47,6 +47,16 @@
 ||[py](./level1/17681.py)|2018 KAKAO BLIND RECRUITMENT[1차] 비밀지도|[프로그래머스 17681](https://school.programmers.co.kr/learn/courses/30/lessons/17681)|
 ||[py](./level1/132267.py)|콜라문제|[프로그래머스 132267](https://school.programmers.co.kr/learn/courses/30/lessons/132267)|
 ||[py](./level1/161990.py)|바탕화면 정리|[프로그래머스 161990](https://school.programmers.co.kr/learn/courses/30/lessons/161990)|
+||[py](./level1/176963.py)|추억 점수|[프로그래머스 176963](https://school.programmers.co.kr/learn/courses/30/lessons/176963)|
+||[py](./level1/138477.py)|명예의 전당 (1)|[프로그래머스 138477](https://school.programmers.co.kr/learn/courses/30/lessons/138477)|
+||[py](./level1/159994.py)|카드 뭉치|[프로그래머스 159994](https://school.programmers.co.kr/learn/courses/30/lessons/159994)|
+||[py](./level1/12901.py)|2016년 요일 구하기|[프로그래머스 12901](https://school.programmers.co.kr/learn/courses/30/lessons/12901)|
+||[py](./level1/12915.py)|문자열 내 마음대로 정렬하기, zip 튜플 정렬, 다중 정렬 옵션|[프로그래머스 12915](https://school.programmers.co.kr/learn/courses/30/lessons/12915)|
+
+
+
+
+
 
 
 
