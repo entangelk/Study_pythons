@@ -54,6 +54,16 @@
 ||[py](./level1/12915.py)|문자열 내 마음대로 정렬하기, zip 튜플 정렬, 다중 정렬 옵션|[프로그래머스 12915](https://school.programmers.co.kr/learn/courses/30/lessons/12915)|
 ||[py](./level1/1845.py)|포켓몬 가져가기|[프로그래머스 1845](https://school.programmers.co.kr/learn/courses/30/lessons/1845)|
 ||[py](./level1/135808.py)|과일 장수|[프로그래머스 135808](https://school.programmers.co.kr/learn/courses/30/lessons/135808)|
+||[py](./level1/42840.py)|모의고사|[프로그래머스 42840](https://school.programmers.co.kr/learn/courses/30/lessons/42840)|
+||[py](./level1/12977.py)|소수 만들기|[프로그래머스 12977](https://school.programmers.co.kr/learn/courses/30/lessons/12977)|
+||[py](./level1/136798.py)|기사단원의 무기 - 약수 갯수 구하기|[프로그래머스 136798](https://school.programmers.co.kr/learn/courses/30/lessons/136798)|
+||[py](./level1/12927.py)|소수 찾기|[프로그래머스 12927](https://school.programmers.co.kr/learn/courses/30/lessons/12927)|
+||[py](./level1/161989.py)|덧칠하기|[프로그래머스 161989](https://school.programmers.co.kr/learn/courses/30/lessons/161989)|
+
+
+
+
+
 
 
 

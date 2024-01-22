@@ -112,6 +112,8 @@
 ||[py](./sort/18870.py)|좌표 압축|[백준 18870](https://www.acmicpc.net/problem/18870)|
 |집합과 맵|[py](./set_map/10815.py)|숫자 카드|[백준 10815](https://www.acmicpc.net/problem/10815)|
 ||[py](./set_map/14425.py)|문자열 집합|[백준 14425](https://www.acmicpc.net/problem/14425)|
+||[py](./set_map/7785.py)|회사에 있는 사람 - 딕셔너리로 풀기|[백준 7785](https://www.acmicpc.net/problem/7785)|
+
 
 
 
