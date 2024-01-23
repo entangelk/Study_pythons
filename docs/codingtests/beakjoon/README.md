@@ -113,6 +113,12 @@
 |집합과 맵|[py](./set_map/10815.py)|숫자 카드|[백준 10815](https://www.acmicpc.net/problem/10815)|
 ||[py](./set_map/14425.py)|문자열 집합|[백준 14425](https://www.acmicpc.net/problem/14425)|
 ||[py](./set_map/7785.py)|회사에 있는 사람 - 딕셔너리로 풀기|[백준 7785](https://www.acmicpc.net/problem/7785)|
+||[py](./set_map/1620.py)|나는야 포켓몬 마스터 이다솜|[백준 1620](https://www.acmicpc.net/problem/1620)|
+||[py](./set_map/10816.py)|숫자 카드 2 - list.count와 Counter|[백준 10816](https://www.acmicpc.net/problem/10816)|
+||[py](./set_map/1764.py)|듣보잡 - 두개의 그룹에서 동일한 사람 찾기|[백준 1764](https://www.acmicpc.net/problem/1764)|
+
+
+
 
 
 
