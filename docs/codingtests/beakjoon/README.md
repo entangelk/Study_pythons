@@ -116,6 +116,16 @@
 ||[py](./set_map/1620.py)|나는야 포켓몬 마스터 이다솜|[백준 1620](https://www.acmicpc.net/problem/1620)|
 ||[py](./set_map/10816.py)|숫자 카드 2 - list.count와 Counter|[백준 10816](https://www.acmicpc.net/problem/10816)|
 ||[py](./set_map/1764.py)|듣보잡 - 두개의 그룹에서 동일한 사람 찾기|[백준 1764](https://www.acmicpc.net/problem/1764)|
+||[py](./set_map/1269.py)|대칭 차집합|[백준 1269](https://www.acmicpc.net/problem/1269)|
+||[py](./set_map/11478.py)|서로 다른 부분 문자열의 개수|[백준 11478](https://www.acmicpc.net/problem/11478)|
+|약수,배수,소수2|[py](./Factor_Multiple2/1934.py)|최소공배수|[백준 1934](https://www.acmicpc.net/problem/1934)|
+||[py](./Factor_Multiple2/13241.py)|최소공배수-유클리드 호제법|[백준 13241](https://www.acmicpc.net/problem/13241)|
+||[py](./Factor_Multiple2/1735.py)|분수 합 -유클리드 호제법 사용|[백준 1735](https://www.acmicpc.net/problem/1735)|
+
+
+
+
+
 
 
 
