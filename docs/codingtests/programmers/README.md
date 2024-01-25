@@ -59,6 +59,8 @@
 ||[py](./level1/136798.py)|기사단원의 무기 - 약수 갯수 구하기|[프로그래머스 136798](https://school.programmers.co.kr/learn/courses/30/lessons/136798)|
 ||[py](./level1/12927.py)|소수 찾기|[프로그래머스 12927](https://school.programmers.co.kr/learn/courses/30/lessons/12927)|
 ||[py](./level1/161989.py)|덧칠하기|[프로그래머스 161989](https://school.programmers.co.kr/learn/courses/30/lessons/161989)|
+||[py](./level1/42889.py)|실패율 2019kakao blind|[프로그래머스 42889](https://school.programmers.co.kr/learn/courses/30/lessons/42889)|
+
 
 
 
