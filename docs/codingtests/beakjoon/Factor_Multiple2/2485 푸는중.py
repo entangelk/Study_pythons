@@ -14,11 +14,11 @@
 
 # 출력
 # 모든 가로수가 같은 간격이 되도록 새로 심어야 하는 가로수의 최소수를 첫 번째 줄에 출력한다.
-
+import sys
 def solution(num):
     tree_list = []
     for i in range(num):
-        get_num = int(input())
+        get_num = int(sys.stdin.readline().strip())
         tree_list.append(get_num)
 
     position_list = []
@@ -26,22 +26,26 @@ def solution(num):
         position_list.append(tree_list[i+1]-tree_list[i])
 
     position_list.sort()
+    
+    gc_list ={}
+    for i in range(len(position_list)):
+        for j in range(len(position_list)-1):
+            temp_list=[position_list[i],position_list[j]]
+            while temp_list[1]+1!=0:
+                try:
+                    [temp_list[0],temp_list[1]] = [temp_list[1], temp_list[0]%temp_list[1]] #여기 틀림
+                except:
+                    break
+        gc_list[temp_list[0]] = True
 
-    for i in range(len(position_list)-1):
-        while i+1!=0:
-            [position_list[i],position_list[i+1]] = [position_list[i+1], position_list[i]%position_list[i+1]] #여기 틀림
-
-    position_list.pop(-1)
-
-    position_list.sort()
-
-    a= position_list[0]
+    pass
+    a = sorted(list(gc_list))
     answer = 0
     for i in position_list:
-        answer += int(i/a)
+        answer += int(i/a[0])-1
         pass
 
     return answer
 
-number = int(input())
+number = int(sys.stdin.readline().strip())
 print(solution(number))
