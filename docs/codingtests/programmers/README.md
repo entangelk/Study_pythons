@@ -60,6 +60,8 @@
 ||[py](./level1/12927.py)|소수 찾기|[프로그래머스 12927](https://school.programmers.co.kr/learn/courses/30/lessons/12927)|
 ||[py](./level1/161989.py)|덧칠하기|[프로그래머스 161989](https://school.programmers.co.kr/learn/courses/30/lessons/161989)|
 ||[py](./level1/42889.py)|실패율 2019kakao blind|[프로그래머스 42889](https://school.programmers.co.kr/learn/courses/30/lessons/42889)|
+||[py](./level1/133499.py)|옹알이 (2)|[프로그래머스 133499](https://school.programmers.co.kr/learn/courses/30/lessons/133499)|
+
 
 
 

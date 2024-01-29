@@ -24,18 +24,45 @@
 
 def solution(babbling):
     data = ["aya", "ye", "woo", "ma"]
+    checking=['ayaaya','yeye','woowoo','mama']
     answer = 0
     for i in range(len(babbling)):
-        for j in data:
+        check = True
+
+        for j in checking:
             if j in babbling[i]:
-                babbling[i] = babbling[i].replace(j,"",1)
-                pass
-                
+                check = False  
+                break
+        if check:
+            for j in data:
+                babbling[i] = babbling[i].replace(j,' ')
+
     for i in babbling:
-        if i == '':
+        if len(i.strip())== 0:
             answer +=1
 
     return answer
 
+'''
+import re
 
+def solution(babbling):
+    answer = 0
+    for word in babbling:
+        # "aya", "ye", "woo", "ma" 발음의 연속성 체크
+        if re.search(r'(aya){2,}|(ye){2,}|(woo){2,}|(ma){2,}', word):
+            continue
+        # "aya", "ye", "woo", "ma" 발음 이외의 발음이 있는지 체크
+        temp = re.sub(r'aya|ye|woo|ma', '', word)
+        if temp != '':
+            continue
+        answer += 1
+    return answer
+'''
 solution(["ayaye", "uuu", "yeye", "yemawoo", "ayaayaa"])
+print(solution(["aya"]))  # Expected output: 1
+print(solution(["aya"]*100))  # Expected output: 100
+print(solution(["ayaya", "ye", "woo", "ma"]))  # Expected output: 3
+print(solution(["ayb", "ye", "woo", "ma"]))  # Expected output: 3
+print(solution(["ayayema", "ye", "woo", "ma", "ayawooma", "mamaye", "woowoo"]))  # Expected output: 5
+
