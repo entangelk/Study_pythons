@@ -121,6 +121,10 @@
 |약수,배수,소수2|[py](./Factor_Multiple2/1934.py)|최소공배수|[백준 1934](https://www.acmicpc.net/problem/1934)|
 ||[py](./Factor_Multiple2/13241.py)|최소공배수-유클리드 호제법|[백준 13241](https://www.acmicpc.net/problem/13241)|
 ||[py](./Factor_Multiple2/1735.py)|분수 합 -유클리드 호제법 사용|[백준 1735](https://www.acmicpc.net/problem/1735)|
+||[py](./Factor_Multiple2/2485.py)|가로수 심기 - math.gcd(최대공약수), fonctool.reduce(누적) 사용|[백준 2485](https://www.acmicpc.net/problem/2485)|
+||[py](./Factor_Multiple2/4134.py)|다음 소수 찾기|[백준 4134](https://www.acmicpc.net/problem/4134)|
+
+
 
 
 

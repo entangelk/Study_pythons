@@ -14,6 +14,30 @@
 
 # 출력
 # 모든 가로수가 같은 간격이 되도록 새로 심어야 하는 가로수의 최소수를 첫 번째 줄에 출력한다.
+
+from math import gcd
+from functools import reduce
+import sys
+
+def solution(num):
+    tree_list = []
+    for i in range(num):
+        get_num = int(sys.stdin.readline().strip())
+        tree_list.append(get_num)
+
+
+    dist_list = [tree_list[i+1] - tree_list[i] for i in range(num-1)]
+    
+    gcd_value = reduce(gcd, dist_list)
+    
+    answer = sum(dist // gcd_value - 1 for dist in dist_list)
+    
+    return answer
+
+number = int(sys.stdin.readline().strip())
+print(solution(number))
+
+'''
 import sys
 def solution(num):
     tree_list = []
@@ -46,6 +70,7 @@ def solution(num):
         pass
 
     return answer
+'''
 
 number = int(sys.stdin.readline().strip())
 print(solution(number))
