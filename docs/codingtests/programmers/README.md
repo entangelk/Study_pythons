@@ -62,6 +62,10 @@
 ||[py](./level1/42889.py)|실패율 2019kakao blind|[프로그래머스 42889](https://school.programmers.co.kr/learn/courses/30/lessons/42889)|
 ||[py](./level1/133499.py)|옹알이 (2)|[프로그래머스 133499](https://school.programmers.co.kr/learn/courses/30/lessons/133499)|
 ||[py](./level1/131128.py)|숫자 짝꿍|[프로그래머스 131128](https://school.programmers.co.kr/learn/courses/30/lessons/131128)|
+||[py](./level1/140108.py)|문자열 나누기|[프로그래머스 140108](https://school.programmers.co.kr/learn/courses/30/lessons/140108)|
+||[py](./level1/42862.py)|체육복 - 탐욕법(?)|[프로그래머스 42862](https://school.programmers.co.kr/learn/courses/30/lessons/42862)|
+
+
 
 
 
