@@ -72,19 +72,29 @@ def solution(keymap, targets):
         # (2, 'l')
         # (3, 'l')
         # (4, 'o')
-    
-    keymap_dic_list=[]
+
+    get_dict={}
     for i in keymap:
-        get_dict={}
         for k,v in enumerate(i):
             if not get_dict.get(v,False): # 여기 부분 수정필요 (숫자를 True로 바꿔야함)
-                get_dict[v] = k
-                
-        keymap_dic_list.append(get_dict)
+                get_dict[v] = k+1
+            elif get_dict[v] > k:
+                get_dict[v] = k+1
         pass
 
     answer = []
+
+    for i in targets:
+        count = 0
+        for j in i:
+            if not get_dict.get(j,False):
+                count = -1
+                break
+            else:
+                count += get_dict.get(j,-1)
+        answer.append(count)
+
     return answer
 
 
-solution(["ABACD", "BCEFD"],	["ABCD","AABB"])
+solution(["AA"],	["AB"])

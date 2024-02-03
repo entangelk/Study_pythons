@@ -64,6 +64,10 @@
 ||[py](./level1/131128.py)|숫자 짝꿍|[프로그래머스 131128](https://school.programmers.co.kr/learn/courses/30/lessons/131128)|
 ||[py](./level1/140108.py)|문자열 나누기|[프로그래머스 140108](https://school.programmers.co.kr/learn/courses/30/lessons/140108)|
 ||[py](./level1/42862.py)|체육복 - 탐욕법(?)|[프로그래머스 42862](https://school.programmers.co.kr/learn/courses/30/lessons/42862)|
+||[py](./level1/160586.py)|대충 만든 자판|[프로그래머스 160586](https://school.programmers.co.kr/learn/courses/30/lessons/160586)|
+||[py](./level1/42576.py)|완주하지 못한 선수 - collections.counter|[프로그래머스 42576](https://school.programmers.co.kr/learn/courses/30/lessons/42576)|
+
+
 
 
 
