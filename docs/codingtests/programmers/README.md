@@ -66,6 +66,13 @@
 ||[py](./level1/42862.py)|체육복 - 탐욕법(?)|[프로그래머스 42862](https://school.programmers.co.kr/learn/courses/30/lessons/42862)|
 ||[py](./level1/160586.py)|대충 만든 자판|[프로그래머스 160586](https://school.programmers.co.kr/learn/courses/30/lessons/160586)|
 ||[py](./level1/42576.py)|완주하지 못한 선수 - collections.counter|[프로그래머스 42576](https://school.programmers.co.kr/learn/courses/30/lessons/42576)|
+||[py](./level1/155652.py)|둘만의 암호|[프로그래머스 155652](https://school.programmers.co.kr/learn/courses/30/lessons/155652)|
+||[py](./level1/250125.py)|[PCCE 기출문제] 9번 / 이웃한 칸|[프로그래머스 250125](https://school.programmers.co.kr/learn/courses/30/lessons/250125)|
+||[py](./level1/64061.py)|2019 카카오 개발자 겨울 인턴십 / 크레인 인형뽑기 게임|[프로그래머스 64061](https://school.programmers.co.kr/learn/courses/30/lessons/64061)|
+||[py](./level1/133502.py)|햄버거 만들기|[프로그래머스 133502](https://school.programmers.co.kr/learn/courses/30/lessons/133502)|
+
+
+
 
 
 

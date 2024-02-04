@@ -23,6 +23,16 @@
 
 def solution(s, skip, index):
     answer = ''
+    alpha_list = [chr(i) for i in range(ord('a'),ord('z')+1)]
+    for i in skip:
+        alpha_list.remove(i)
+
+    for i in s:
+        if alpha_list.index(i)+index%len(alpha_list) < len(alpha_list):
+            answer += alpha_list[alpha_list.index(i)+index%len(alpha_list)]
+        else :
+            answer += alpha_list[alpha_list.index(i)+index%len(alpha_list) - len(alpha_list)]
+
     return answer
 
-solution("aukks",	"wbqd",	5)
+solution("a", "cb", 1)
