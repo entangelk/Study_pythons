@@ -4,5 +4,6 @@
     "workbench.preferredHighContrastColorTheme": "Default High Contrast Light",
     "workbench.preferredHighContrastLightColorTheme": "Default High Contrast Light",
     "workbench.preferredLightColorTheme": "Visual Studio Light - C++",
-    "window.autoDetectColorScheme": true
+    "window.autoDetectColorScheme": true,
+    "cmake.configureOnOpen": true
 }

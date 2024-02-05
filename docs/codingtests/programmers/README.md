@@ -70,6 +70,10 @@
 ||[py](./level1/250125.py)|[PCCE 기출문제] 9번 / 이웃한 칸|[프로그래머스 250125](https://school.programmers.co.kr/learn/courses/30/lessons/250125)|
 ||[py](./level1/64061.py)|2019 카카오 개발자 겨울 인턴십 / 크레인 인형뽑기 게임|[프로그래머스 64061](https://school.programmers.co.kr/learn/courses/30/lessons/64061)|
 ||[py](./level1/133502.py)|햄버거 만들기|[프로그래머스 133502](https://school.programmers.co.kr/learn/courses/30/lessons/133502)|
+||[py](./level1/67256.py)|2020 카카오 인턴십 - 키패드 누르기|[프로그래머스 67256](https://school.programmers.co.kr/learn/courses/30/lessons/67256)|
+||[py](./level1/72410.py)|2021 KAKAO BLIND RECRUITMENT - 신규 아이디 추천 (정규식표현)|[프로그래머스 72410](https://school.programmers.co.kr/learn/courses/30/lessons/72410)|
+
+
 
 
 
