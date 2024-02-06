@@ -158,16 +158,40 @@
 # 따라서 "RCJA"를 return 해야 합니다.
 
 def solution(survey, choices):
+    answer = ''
     data_dic = {i:0 for i in ['R','T','C','F','J','M','A','N']}
     zip_data = zip(survey,choices)
 
     for i in zip_data:
-        data_dic[i[0][0]] = data_dic[i[0][0]]+i[1]
-        data_dic[i[0][1]] = data_dic[i[0][1]]+i[1]
+        if i[1] > 4:
+            data_dic[i[0][1]] = data_dic[i[0][1]]+(i[1]-4)
+            pass
+        elif i[1] < 4:
+            data_dic[i[0][0]] = data_dic[i[0][0]]+(4-i[1])
+            pass
+        else:
+            pass
     
-    data_list = sorted(list(data_dic.items()), key=lambda x:x[1])
-    answer = ''
-    answer += data_list[-1]+data_list[-2]
+    if data_dic['R'] < data_dic['T']:
+        answer += 'T'
+    else:
+        answer += 'R'
+
+    if data_dic['C'] < data_dic['F']:
+        answer += 'F'
+    else:
+        answer += 'C'
+
+    if data_dic['J'] < data_dic['M']:
+        answer += 'M'
+    else:
+        answer += 'J'
+
+    if data_dic['A'] < data_dic['N']:
+        answer += 'N'
+    else:
+        answer += 'A'                       
+
     return answer
 
 solution(["AN", "CF", "MJ", "RT", "NA"],	[5, 3, 2, 7, 5])

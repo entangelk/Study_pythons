@@ -72,6 +72,10 @@
 ||[py](./level1/133502.py)|햄버거 만들기|[프로그래머스 133502](https://school.programmers.co.kr/learn/courses/30/lessons/133502)|
 ||[py](./level1/67256.py)|2020 카카오 인턴십 - 키패드 누르기|[프로그래머스 67256](https://school.programmers.co.kr/learn/courses/30/lessons/67256)|
 ||[py](./level1/72410.py)|2021 KAKAO BLIND RECRUITMENT - 신규 아이디 추천 (정규식표현)|[프로그래머스 72410](https://school.programmers.co.kr/learn/courses/30/lessons/72410)|
+||[py](./level1/118666.py)|2022 KAKAO TECH INTERNSHIP - 성격 유형 검사하기|[프로그래머스 118666](https://school.programmers.co.kr/learn/courses/30/lessons/118666)|
+||[py](./level1/250121.py)|[PCCE 기출문제] 10번 / 데이터 분석|[프로그래머스 250121](https://school.programmers.co.kr/learn/courses/30/lessons/250121)|
+
+
 
 
 
