@@ -75,6 +75,70 @@
 
 def solution(today, terms, privacies):
     answer = []
+    term_dic = {i[0]:int(i[2:]) for i in terms}
+
+    today_year , today_month, today_day = map(int, today.split('.'))
+    
+
+    for i in range(len(privacies)):
+        check = False
+
+        month = term_dic[privacies[i][-1]]
+        check_year, check_month, check_day = map(int,privacies[i][:10].split('.') )
+        pass
+        if check_day == 1:
+            plus_month = -1
+            check_day = 28
+            check_month += plus_month
+        else:
+            check_day -= 1
+
+        plus_year = (check_month+month)//12
+        check_month = (check_month+month)%12
+        if check_month == 0:
+            check_month = 12
+            plus_year -= 1
+        check_year += plus_year
+
+        if check_year >= today_year:
+            check = True
+            if check_month > today_month:
+                check = True
+            elif check_month == today_month:
+                if check_day >= today_day:
+                    check = True
+                else:
+                    check = False
+            else:
+                check = False
+
+        pass
+
+        if not check:
+            answer.append(i+1)
+
     return answer
 
-solution("2022.05.19"	,["A 6", "B 12", "C 3"]	,["2021.05.02 A", "2021.07.01 B", "2022.02.19 C", "2022.02.20 C"])
+solution("2020.01.01", ["A 1"], ["2019.12.01 A"])
+
+assert solution("2021.01.28", ["A 2"], ["2020.12.01 A", "2010.01.01 A"]) == [2]
+assert solution("2021.05.15", ["A 1", "B 18"], ["2000.12.01 A", "2019.10.15 B"]) == [1, 2]
+assert solution("2020.12.17", ["A 12"], ["2010.01.01 A", "2019.12.17 A"]) ==  [1, 2]
+assert solution("2020.01.02", ["A 1", "B 11"], ["2019.12.01 A", "2020.01.01 B"]) == [1]
+assert solution("2020.01.01", ["A 1"], ["2019.12.09 A", "2019.12.09 A", "2019.12.09 A", "2019.12.09 A", "2019.12.09 A", "2019.12.09 A", "2019.12.09 A", "2019.12.09 A", "2019.12.09 A", "2019.12.09 A", "2019.12.01 A"]) == [11]
+assert solution("2010.01.01", ["Z 12"], ["2009.12.01 Z", "2001.01.01 Z"]) == [2]
+assert solution("2020.10.15", ["A 100"], ["2018.06.16 A", "2008.02.15 A"]) == [2]
+assert solution("2020.02.10", ["A 1", "B 100"], ["2019.02.10 A", "2019.02.10 B"]) == [1]
+assert solution("2009.12.31", ["A 13"], ["2008.11.03 A"]) == [1]
+assert solution("2020.10.12", ["A 1"], ["2020.01.02 A"]) == [1]
+assert solution("2020.05.15", ["A 1"], ["2001.01.10 A", "2001.01.10 A"]) == [1,2]
+assert solution("2020.12.17", ["A 12"], ["2010.01.01 A", "2019.12.17 A"]) == [1,2]
+assert solution("2020.05.15", ["A 1"], ["2001.01.10 A", "2001.01.10 A"]) == [1,2]
+assert solution("2020.05.15", ["A 1"], ["2001.01.10 A", "2001.01.10 A"]) == [1,2]
+assert solution("2020.10.15", ["A 100"], ["2018.06.16 A", "2008.02.15 A"]) == [2]
+assert solution( "2020.01.02", ["A 1", "B 11"], ["2019.12.01 A", "2020.01.01 B"]) == [1]
+
+
+
+
+
