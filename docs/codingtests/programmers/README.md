@@ -74,6 +74,14 @@
 ||[py](./level1/72410.py)|2021 KAKAO BLIND RECRUITMENT - 신규 아이디 추천 (정규식표현)|[프로그래머스 72410](https://school.programmers.co.kr/learn/courses/30/lessons/72410)|
 ||[py](./level1/118666.py)|2022 KAKAO TECH INTERNSHIP - 성격 유형 검사하기|[프로그래머스 118666](https://school.programmers.co.kr/learn/courses/30/lessons/118666)|
 ||[py](./level1/250121.py)|[PCCE 기출문제] 10번 / 데이터 분석|[프로그래머스 250121](https://school.programmers.co.kr/learn/courses/30/lessons/250121)|
+||[py](./level1/150370.py)|2023 KAKAO BLIND RECRUITMENT - 개인정보 수집 유효기간|[프로그래머스 150370](https://school.programmers.co.kr/learn/courses/30/lessons/150370)|
+||[py](./level1/178871.py)|달리기 경주|[프로그래머스 178871](https://school.programmers.co.kr/learn/courses/30/lessons/178871)|
+||[py](./level1/172928.py)|공원 산책|[프로그래머스 172928](https://school.programmers.co.kr/learn/courses/30/lessons/172928)|
+||[py](./level1/92334.py)|2022 KAKAO BLIND RECRUITMENT - 신고 결과 받기|[프로그래머스 92334](https://school.programmers.co.kr/learn/courses/30/lessons/92334)|
+
+
+
+
 
 
 

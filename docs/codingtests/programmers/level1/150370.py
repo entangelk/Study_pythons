@@ -76,7 +76,7 @@
 def solution(today, terms, privacies):
     answer = []
     term_dic = {i[0]:int(i[2:]) for i in terms}
-
+    
     today_year , today_month, today_day = map(int, today.split('.'))
     
 
@@ -100,8 +100,9 @@ def solution(today, terms, privacies):
             plus_year -= 1
         check_year += plus_year
 
-        if check_year >= today_year:
+        if check_year > today_year:
             check = True
+        elif check_year == today_year:
             if check_month > today_month:
                 check = True
             elif check_month == today_month:
@@ -137,6 +138,11 @@ assert solution("2020.05.15", ["A 1"], ["2001.01.10 A", "2001.01.10 A"]) == [1,2
 assert solution("2020.05.15", ["A 1"], ["2001.01.10 A", "2001.01.10 A"]) == [1,2]
 assert solution("2020.10.15", ["A 100"], ["2018.06.16 A", "2008.02.15 A"]) == [2]
 assert solution( "2020.01.02", ["A 1", "B 11"], ["2019.12.01 A", "2020.01.01 B"]) == [1]
+assert solution( "2022.02.28"  , ["A 23"]   ,["2020.01.28 A"]) == [1]
+assert solution("2021.12.08", ["A 18"], ["2020.06.08 A"]) == [1]
+assert solution("2022.12.08", ["A 6"], ["2022.06.08 A"]) == [1]
+
+
 
 
 
