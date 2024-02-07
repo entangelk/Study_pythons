@@ -78,6 +78,8 @@
 ||[py](./level1/178871.py)|달리기 경주|[프로그래머스 178871](https://school.programmers.co.kr/learn/courses/30/lessons/178871)|
 ||[py](./level1/172928.py)|공원 산책|[프로그래머스 172928](https://school.programmers.co.kr/learn/courses/30/lessons/172928)|
 ||[py](./level1/92334.py)|2022 KAKAO BLIND RECRUITMENT - 신고 결과 받기|[프로그래머스 92334](https://school.programmers.co.kr/learn/courses/30/lessons/92334)|
+||[py](./level1/250137.py)|[PCCP 기출문제] 1번 / 붕대 감기|[프로그래머스 250137](https://school.programmers.co.kr/learn/courses/30/lessons/250137)|
+
 
 
 

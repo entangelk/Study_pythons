@@ -112,21 +112,22 @@ def solution(bandage, health, attacks):
                     return -1
                 if i == attacks[-1][0]:
                     return health
+                check = False
                 break
-            elif health < max_health:
-                health += bandage[1]
-                counter += 1
-                pass
-
-                if counter == bandage[0]:
-                    health+= bandage[2]
-                    counter = 1
-                break
+            
             else:
                 check = True
         
         if check:
-            counter += 1
+            if health < max_health:           # 여기 포문 돌때 계속 걸린다 얘를 밖으로 빼던가 어떻게 해야대
+                health += bandage[1]
+                counter += 1
+                pass
+                if counter == bandage[0]:
+                    health+= bandage[2]
+                    counter = 1
+            else:
+                counter += 1
 
     answer = health
     return answer
