@@ -1,1 +1,0 @@
-# https://school.programmers.co.kr/skill_checks
