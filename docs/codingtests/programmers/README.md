@@ -37,7 +37,7 @@
 ||[py](./level1/12930.py)|이상한 문자 만들기|[프로그래머스 12930](https://school.programmers.co.kr/learn/courses/30/lessons/12930)|
 ||[py](./level1/147355.py)|크기가 작은 부분문자열|[프로그래머스 147355](https://school.programmers.co.kr/learn/courses/30/lessons/147355)|
 ||[py](./level1/131705.py)|삼총사|[프로그래머스 131705](https://school.programmers.co.kr/learn/courses/30/lessons/131705)|
-||[py](./level1/86491.py)|삼최소직사각형|[프로그래머스 86491](https://school.programmers.co.kr/learn/courses/30/lessons/86491)|
+||[py](./level1/86491.py)|최소직사각형 - 명함|[프로그래머스 86491](https://school.programmers.co.kr/learn/courses/30/lessons/86491)|
 ||[py](./level1/12926.py)|시저 암호|[프로그래머스 12926](https://school.programmers.co.kr/learn/courses/30/lessons/12926)|
 ||[py](./level1/81301.py)|숫자 문자열과 영단어|[프로그래머스 81301](https://school.programmers.co.kr/learn/courses/30/lessons/81301)|
 ||[py](./level1/142086.py)|가장 가까운 같은 글자|[프로그래머스 142086](https://school.programmers.co.kr/learn/courses/30/lessons/142086)|
@@ -57,7 +57,7 @@
 ||[py](./level1/42840.py)|모의고사|[프로그래머스 42840](https://school.programmers.co.kr/learn/courses/30/lessons/42840)|
 ||[py](./level1/12977.py)|소수 만들기|[프로그래머스 12977](https://school.programmers.co.kr/learn/courses/30/lessons/12977)|
 ||[py](./level1/136798.py)|기사단원의 무기 - 약수 갯수 구하기|[프로그래머스 136798](https://school.programmers.co.kr/learn/courses/30/lessons/136798)|
-||[py](./level1/12927.py)|소수 찾기|[프로그래머스 12927](https://school.programmers.co.kr/learn/courses/30/lessons/12927)|
+||[py](./level1/12921.py)|소수 찾기|[프로그래머스 12921](https://school.programmers.co.kr/learn/courses/30/lessons/12921)|
 ||[py](./level1/161989.py)|덧칠하기|[프로그래머스 161989](https://school.programmers.co.kr/learn/courses/30/lessons/161989)|
 ||[py](./level1/42889.py)|실패율 2019kakao blind|[프로그래머스 42889](https://school.programmers.co.kr/learn/courses/30/lessons/42889)|
 ||[py](./level1/133499.py)|옹알이 (2)|[프로그래머스 133499](https://school.programmers.co.kr/learn/courses/30/lessons/133499)|
@@ -79,6 +79,8 @@
 ||[py](./level1/172928.py)|공원 산책|[프로그래머스 172928](https://school.programmers.co.kr/learn/courses/30/lessons/172928)|
 ||[py](./level1/92334.py)|2022 KAKAO BLIND RECRUITMENT - 신고 결과 받기|[프로그래머스 92334](https://school.programmers.co.kr/learn/courses/30/lessons/92334)|
 ||[py](./level1/250137.py)|[PCCP 기출문제] 1번 / 붕대 감기|[프로그래머스 250137](https://school.programmers.co.kr/learn/courses/30/lessons/250137)|
+||[py](./level1/258712.py)|2024 KAKAO WINTER INTERNSHIP - 가장 많이 받은 선물|[프로그래머스 258712](https://school.programmers.co.kr/learn/courses/30/lessons/258712)|
+
 
 
 

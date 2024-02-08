@@ -20,6 +20,7 @@
 # [1,4,6]을 이용해서 11을 만들 수 있습니다.
 # [2,4,7]을 이용해서 13을 만들 수 있습니다.
 # [4,6,7]을 이용해서 17을 만들 수 있습니다
+'''
 import math
 
 def solution(get_list):
@@ -39,7 +40,24 @@ def solution(get_list):
                 break
     answer = len(total_list) - counter
     return answer
+'''
 
-solution([1,2,7,6,4])
+def solution(nums):
+    answer = 0
+
+    for i in range(len(nums)):
+        for j in range(i+1,len(nums)):
+            for k in range(j+1,len(nums)):
+                flag = True
+                for l in range(2,int((nums[i]+nums[j]+nums[k])**0.5)+1):
+                    if (nums[i]+nums[j]+nums[k]) % l==0:
+                        flag = False
+                if flag:
+                    answer += 1
+
+
+    return answer
+
+solution([1,2,3,4])
 
 
