@@ -20,6 +20,18 @@
 |||[sql](./select/level1/131536.sql)|재구매가 일어난 상품과 회원 리스트 구하기|GROUP BY, HAVING|[프로그래머스 SQL 131536](https://school.programmers.co.kr/learn/courses/30/lessons/131536)|
 ||level4|[sql](./select/level1/131118.sql)|서울에 위치한 식당 목록 출력하기|GROUP BY, AVG|[프로그래머스 SQL 131118](https://school.programmers.co.kr/learn/courses/30/lessons/131118)|
 |||[sql](./select/level1/131537.sql)|오프라인/온라인 판매 데이터 통합하기|UNION ALL, NULL AS|[프로그래머스 SQL 131537](https://school.programmers.co.kr/learn/courses/30/lessons/131537)|
+|SUM, MAX, MIN|level1|[sql](./SUM_MAX_MIN/level1/59415.sql)|최댓값 구하기|max|[프로그래머스 SQL 59415](https://school.programmers.co.kr/learn/courses/30/lessons/59415)|
+|||[sql](./SUM_MAX_MIN/level1/131697.sql)|가장 비싼 상품 구하기|max|[프로그래머스 SQL 131697](https://school.programmers.co.kr/learn/courses/30/lessons/131697)|
+||level2|[sql](./SUM_MAX_MIN/level1/131115.sql)|가격이 제일 비싼 식품의 정보 출력하기||[프로그래머스 SQL 131115](https://school.programmers.co.kr/learn/courses/30/lessons/131115)|
+|||[sql](./SUM_MAX_MIN/level1/59038.sql)|최솟값 구하기|min|[프로그래머스 SQL 59038](https://school.programmers.co.kr/learn/courses/30/lessons/59038)|
+|||[sql](./SUM_MAX_MIN/level1/59406.sql)|동물 수 구하기|count|[프로그래머스 SQL 59406](https://school.programmers.co.kr/learn/courses/30/lessons/59406)|
+|||[sql](./SUM_MAX_MIN/level1/59408.sql)|중복 제거하기|DISTINCT|[프로그래머스 SQL 59408](https://school.programmers.co.kr/learn/courses/30/lessons/59408)|
+|GROUP BY|level2|[sql](./GROUP_BY/level2/131530.sql)|최댓값 구하기|max|[프로그래머스 SQL 131530](https://school.programmers.co.kr/learn/courses/30/lessons/131530)|
+
+
+
+
+
 
 
 
