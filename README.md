@@ -1,7 +1,9 @@
 ## 코딩 테스트
 
 * [백준 코딩테스트](./docs/codingtests/beakjoon/README.md)
-* [프로그래머스 코딩테스트](./docs/codingtests/programmers/README.md)
+* [프로그래머스 파이썬 코딩테스트](./docs/codingtests/programmers/README.md)
+* [프로그래머스 SQL 코딩테스트](./docs/codingtests/programmers/mySQL/README.md)
+
 
 
 ### 예시 저장소
