@@ -38,11 +38,29 @@
 |||[sql](./GROUP_BY/level3/164668.sql)|조건에 맞는 사용자와 총 거래금액 조회하기|SUM, HAVING|[프로그래머스 SQL 164668](https://school.programmers.co.kr/learn/courses/30/lessons/164668)|
 |||[sql](./GROUP_BY/level3/71266.sql)|자동차 대여 기록에서 대여중 / 대여 가능 여부 구분하기|MAX(조건의 최신)|[프로그래머스 SQL 71266](https://school.programmers.co.kr/learn/courses/30/lessons/71266)|
 |||[sql](./GROUP_BY/level3/151139.sql)|대여 횟수가 많은 자동차들의 월별 대여 횟수 구하기|WHERE SUB_QUERY|[프로그래머스 SQL 151139](https://school.programmers.co.kr/learn/courses/30/lessons/151139)|
-||level4|[sql](./GROUP_BY/level3/144856.sql)|저자 별 카테고리 별 매출액 집계하기|JOIN 2개|[프로그래머스 SQL 144856](https://school.programmers.co.kr/learn/courses/30/lessons/144856)|
-|||[sql](./GROUP_BY/level3/131116.sql)|식품분류별 가장 비싼 식품의 정보 조회하기|WHERE IN 2개 SUB_QUERY|[프로그래머스 SQL 131116](https://school.programmers.co.kr/learn/courses/30/lessons/131116)|
-|||[sql](./GROUP_BY/level3/131532.sql)|년, 월, 성별 별 상품 구매 회원 수 구하기|DISTINCT|[프로그래머스 SQL 131532](https://school.programmers.co.kr/learn/courses/30/lessons/131532)|
-|||[sql](./GROUP_BY/level3/59413.sql)|입양 시각 구하기(2)|LEFT JOIN, UNION ALL|[프로그래머스 SQL 59413](https://school.programmers.co.kr/learn/courses/30/lessons/59413)|
-
+||level4|[sql](./GROUP_BY/level4/144856.sql)|저자 별 카테고리 별 매출액 집계하기|JOIN 2개|[프로그래머스 SQL 144856](https://school.programmers.co.kr/learn/courses/30/lessons/144856)|
+|||[sql](./GROUP_BY/level4/131116.sql)|식품분류별 가장 비싼 식품의 정보 조회하기|WHERE IN 2개 SUB_QUERY|[프로그래머스 SQL 131116](https://school.programmers.co.kr/learn/courses/30/lessons/131116)|
+|||[sql](./GROUP_BY/level4/131532.sql)|년, 월, 성별 별 상품 구매 회원 수 구하기|DISTINCT|[프로그래머스 SQL 131532](https://school.programmers.co.kr/learn/courses/30/lessons/131532)|
+|||[sql](./GROUP_BY/level4/59413.sql)|입양 시각 구하기(2)|LEFT JOIN, UNION ALL|[프로그래머스 SQL 59413](https://school.programmers.co.kr/learn/courses/30/lessons/59413)|
+|IS_NULL|level1|[sql](./IS_NULL/level1/13114.sql)|경기도에 위치한 식품창고 목록 출력하기|CASE,IF,IFNULL|[프로그래머스 SQL 13114](https://school.programmers.co.kr/learn/courses/30/lessons/13114)|
+|||[sql](./IS_NULL/level1/59039.sql)|이름이 없는 동물의 아이디|IS NULL|[프로그래머스 SQL 59039](https://school.programmers.co.kr/learn/courses/30/lessons/59039)|
+|||[sql](./IS_NULL/level1/59407.sql)|이름이 있는 동물의 아이디|IS NOT NULL|[프로그래머스 SQL 59407](https://school.programmers.co.kr/learn/courses/30/lessons/59407)|
+|||[sql](./IS_NULL/level1/131528.sql)|나이 정보가 없는 회원 수 구하기|IS NULL, COUNT|[프로그래머스 SQL 131528](https://school.programmers.co.kr/learn/courses/30/lessons/131528)|
+||level2|[sql](./IS_NULL/level2/59410.sql)|NULL 처리하기|IF|[프로그래머스 SQL 59410](https://school.programmers.co.kr/learn/courses/30/lessons/59410)|
+|String_Date|level1|[sql](./String_Date/level1/151138.sql)|자동차 대여 기록에서 장기/단기 대여 구분하기|DATEDIFF|[프로그래머스 SQL 151138](https://school.programmers.co.kr/learn/courses/30/lessons/151138)|
+|||[sql](./String_Date/level1/157343.sql)|특정 옵션이 포함된 자동차 리스트 구하기||[프로그래머스 SQL 157343](https://school.programmers.co.kr/learn/courses/30/lessons/157343)|
+|||[sql](./String_Date/level2/164672.sql)|조건에 부합하는 중고거래 상태 조회하기|2중 CASE|[프로그래머스 SQL 164672](https://school.programmers.co.kr/learn/courses/30/lessons/164672)|
+|||[sql](./String_Date/level2/157342.sql)|자동차 평균 대여 기간 구하기|ROUND,AVG,DATEDIFF|[프로그래머스 SQL 157342](https://school.programmers.co.kr/learn/courses/30/lessons/157342)|
+|||[sql](./String_Date/level2/59046.sql)|루시와 엘라 찾기|IN|[프로그래머스 SQL 59046](https://school.programmers.co.kr/learn/courses/30/lessons/59046)|
+|||[sql](./String_Date/level2/59047.sql)|이름에 el이 들어가는 동물 찾기|UPPER|[프로그래머스 SQL 59047](https://school.programmers.co.kr/learn/courses/30/lessons/59047)|
+|||[sql](./String_Date/level2/59409.sql)|중성화 여부 파악하기|CASE|[프로그래머스 SQL 59409](https://school.programmers.co.kr/learn/courses/30/lessons/59409)|
+|||[sql](./String_Date/level2/59414.sql)|DATETIME에서 DATE로 형 변환|DATE_FORMAT|[프로그래머스 SQL 59414](https://school.programmers.co.kr/learn/courses/30/lessons/59414)|
+|||[sql](./String_Date/level2/131529.sql)|카테고리 별 상품 개수 구하기 - 문자 자르기|SUBSTR()|[프로그래머스 SQL 131529](https://school.programmers.co.kr/learn/courses/30/lessons/131529)|
+||level3|[sql](./String_Date/level3/164671.sql)|조회수가 가장 많은 중고거래 게시판의 첨부파일 조회하기 - 문자 더하기|CONCAT()|[프로그래머스 SQL 164671](https://school.programmers.co.kr/learn/courses/30/lessons/164671)|
+|||[sql](./String_Date/level3/164670.sql)|조건에 맞는 사용자 정보 조회하기 - 문자 더하기|CONCAT(),SUBSTR(),SUB_QUERY|[프로그래머스 SQL 164670](https://school.programmers.co.kr/learn/courses/30/lessons/164670)|
+|||[sql](./String_Date/level3/131113.sql)|조건별로 분류하여 주문상태 출력하기|CASE, DATE_FORMAT|[프로그래머스 SQL 131113](https://school.programmers.co.kr/learn/courses/30/lessons/131113)|
+|||[sql](./String_Date/level3/157341.sql)|대여 기록이 존재하는 자동차 리스트 구하기|DISTINCT|[프로그래머스 SQL 157341](https://school.programmers.co.kr/learn/courses/30/lessons/157341)|
+|||[sql](./String_Date/level3/59411.sql)|오랜 기간 보호한 동물(2)|DATEDIFF|[프로그래머스 SQL 59411](https://school.programmers.co.kr/learn/courses/30/lessons/59411)|
 
 
 
