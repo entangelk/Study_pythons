@@ -61,8 +61,12 @@
 |||[sql](./String_Date/level3/131113.sql)|조건별로 분류하여 주문상태 출력하기|CASE, DATE_FORMAT|[프로그래머스 SQL 131113](https://school.programmers.co.kr/learn/courses/30/lessons/131113)|
 |||[sql](./String_Date/level3/157341.sql)|대여 기록이 존재하는 자동차 리스트 구하기|DISTINCT|[프로그래머스 SQL 157341](https://school.programmers.co.kr/learn/courses/30/lessons/157341)|
 |||[sql](./String_Date/level3/59411.sql)|오랜 기간 보호한 동물(2)|DATEDIFF|[프로그래머스 SQL 59411](https://school.programmers.co.kr/learn/courses/30/lessons/59411)|
-
-
-
-
+|||[sql](./String_Date/level3/.sql)|||[프로그래머스 SQL ](https://school.programmers.co.kr/learn/courses/30/lessons/)|
+|||[sql](./String_Date/level3/.sql)|||[프로그래머스 SQL ](https://school.programmers.co.kr/learn/courses/30/lessons/)|
+|JOIN|level2|[sql](./JOIN/level2/144854.sql)|조건에 맞는 도서와 저자 리스트 출력하기||[프로그래머스 SQL 144854](https://school.programmers.co.kr/learn/courses/30/lessons/144854)|
+|||[sql](./JOIN/level2/131533.sql)|상품 별 오프라인 매출 구하기|SUM|[프로그래머스 SQL 131533](https://school.programmers.co.kr/learn/courses/30/lessons/131533)|
+||level3|[sql](./JOIN/level3/59042.sql)|없어진 기록 찾기|LEFT RIGHT JOIN|[프로그래머스 SQL 59042](https://school.programmers.co.kr/learn/courses/30/lessons/59042)|
+|||[sql](./JOIN/level3/59043.sql)|있었는데요 없었습니다|JOIN|[프로그래머스 SQL 59043](https://school.programmers.co.kr/learn/courses/30/lessons/59043)|
+|||[sql](./JOIN/level3/59044.sql)|오랜 기간 보호한 동물(1)|LEFT JOIN|[프로그래머스 SQL 59044](https://school.programmers.co.kr/learn/courses/30/lessons/59044)|
+||level4|[sql](./JOIN/level4/133027.sql)|주문량이 많은 아이스크림들 조회하기|JOIN|[프로그래머스 SQL 133027](https://school.programmers.co.kr/learn/courses/30/lessons/133027)|
 
