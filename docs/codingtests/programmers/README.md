@@ -81,54 +81,20 @@
 ||[py](./level1/250137.py)|[PCCP 기출문제] 1번 / 붕대 감기|[프로그래머스 250137](https://school.programmers.co.kr/learn/courses/30/lessons/250137)|
 ||[py](./level1/258712.py)|2024 KAKAO WINTER INTERNSHIP - 가장 많이 받은 선물|[프로그래머스 258712](https://school.programmers.co.kr/learn/courses/30/lessons/258712)|
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### LEVEL2
 
-|구분|소스|문제설명|출처|
-|--|--|--|--|
-|level2|[py](./level2/12939.py)|최댓값과 최솟값|[프로그래머스 12939](https://school.programmers.co.kr/learn/courses/30/lessons/12939)|
-|level2|[py](./level2/12951.py)|JadenCase 문자열 만들기|[프로그래머스 12951](https://school.programmers.co.kr/learn/courses/30/lessons/12951)|
-|level2|[py](./level2/12941.py)|최솟값 만들기|[프로그래머스 12941](https://school.programmers.co.kr/learn/courses/30/lessons/12941)|
-|level2|[py](./level2/12909.py)|올바른 괄호 (스택)|[프로그래머스 12909](https://school.programmers.co.kr/learn/courses/30/lessons/12909)|
-|level2|[py](./level2/70129.py)|이진 변환 반복하기|[프로그래머스 70129](https://school.programmers.co.kr/learn/courses/30/lessons/70129)|
-|level2|[py](./level2/12924.py)|숫자의 표현 - 연속되는 숫자의 합으로 표현|[프로그래머스 12924](https://school.programmers.co.kr/learn/courses/30/lessons/12924)|
+|구분|소스|문제설명|사용기능|출처|
+|--|--|--|--|--|
+||[py](./level2/12939.py)|최댓값과 최솟값|min,max|[프로그래머스 12939](https://school.programmers.co.kr/learn/courses/30/lessons/12939)|
+||[py](./level2/12951.py)|JadenCase 문자열 만들기|upper|[프로그래머스 12951](https://school.programmers.co.kr/learn/courses/30/lessons/12951)|
+||[py](./level2/12941.py)|최솟값 만들기|sort|[프로그래머스 12941](https://school.programmers.co.kr/learn/courses/30/lessons/12941)|
+||[py](./level2/12909.py)|올바른 괄호 (스택)|stack|[프로그래머스 12909](https://school.programmers.co.kr/learn/courses/30/lessons/12909)|
+||[py](./level2/70129.py)|이진 변환 반복하기|bin|[프로그래머스 70129](https://school.programmers.co.kr/learn/courses/30/lessons/70129)|
+||[py](./level2/12924.py)|숫자의 표현 - 연속되는 숫자의 합으로 표현||[프로그래머스 12924](https://school.programmers.co.kr/learn/courses/30/lessons/12924)|
+||[py](./level2/12911.py)|다음 큰 숫자|bin|[프로그래머스 12911](https://school.programmers.co.kr/learn/courses/30/lessons/12911)|
+||[py](./level2/12945.py)|피보나치 수|피보나치 반복문|[프로그래머스 12945](https://school.programmers.co.kr/learn/courses/30/lessons/12945)|
+
+
 
 
 
