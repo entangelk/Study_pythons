@@ -26,6 +26,7 @@
 
 
 # 최적화 해야됨
+'''
 def solution(s):
     s=list(s)
     while True:
@@ -41,5 +42,22 @@ def solution(s):
         if flag:
             break
     return 0
+'''
+def solution(s):
+    get_list = []
+    for i in s:
+        try:
+            if i == get_list[-1]:
+                get_list.pop()
+            else:
+                get_list.append(i)
+        except:
+            get_list.append(i)
+        pass
+    if len(get_list) == 0:
+        return 1
+    else:
+        return 0
 
-solution('baabaa')
+
+solution('cdcd')

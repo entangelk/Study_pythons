@@ -93,6 +93,14 @@
 ||[py](./level2/12924.py)|숫자의 표현 - 연속되는 숫자의 합으로 표현||[프로그래머스 12924](https://school.programmers.co.kr/learn/courses/30/lessons/12924)|
 ||[py](./level2/12911.py)|다음 큰 숫자|bin|[프로그래머스 12911](https://school.programmers.co.kr/learn/courses/30/lessons/12911)|
 ||[py](./level2/12945.py)|피보나치 수|피보나치 반복문|[프로그래머스 12945](https://school.programmers.co.kr/learn/courses/30/lessons/12945)|
+||[py](./level2/12973.py)|짝지어 제거하기|pop|[프로그래머스 12973](https://school.programmers.co.kr/learn/courses/30/lessons/12973)|
+||[py](./level2/42842.py)|카펫 - 구현||[프로그래머스 42842](https://school.programmers.co.kr/learn/courses/30/lessons/42842)|
+||[py](./level2/12981.py)|Summer/Winter Coding(~2018) - 영어 끝말잇기||[프로그래머스 12981](https://school.programmers.co.kr/learn/courses/30/lessons/12981)|
+||[py](./level2/12980.py)|Summer/Winter Coding(~2018) - 점프와 순간 이동|알고리즘 거꾸로 생각해보기|[프로그래머스 12980](https://school.programmers.co.kr/learn/courses/30/lessons/12980)|
+
+
+
+
 
 
 
