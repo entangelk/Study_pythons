@@ -97,6 +97,8 @@
 ||[py](./level2/42842.py)|카펫 - 구현||[프로그래머스 42842](https://school.programmers.co.kr/learn/courses/30/lessons/42842)|
 ||[py](./level2/12981.py)|Summer/Winter Coding(~2018) - 영어 끝말잇기||[프로그래머스 12981](https://school.programmers.co.kr/learn/courses/30/lessons/12981)|
 ||[py](./level2/12980.py)|Summer/Winter Coding(~2018) - 점프와 순간 이동|알고리즘 거꾸로 생각해보기|[프로그래머스 12980](https://school.programmers.co.kr/learn/courses/30/lessons/12980)|
+||[py](./level2/42885.py)|구명보트|탐욕법, 이진탐색|[프로그래머스 42885](https://school.programmers.co.kr/learn/courses/30/lessons/42885)|
+
 
 
 
