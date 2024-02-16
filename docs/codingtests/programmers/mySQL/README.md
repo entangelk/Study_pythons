@@ -69,4 +69,10 @@
 |||[sql](./JOIN/level3/59043.sql)|있었는데요 없었습니다|JOIN|[프로그래머스 SQL 59043](https://school.programmers.co.kr/learn/courses/30/lessons/59043)|
 |||[sql](./JOIN/level3/59044.sql)|오랜 기간 보호한 동물(1)|LEFT JOIN|[프로그래머스 SQL 59044](https://school.programmers.co.kr/learn/courses/30/lessons/59044)|
 ||level4|[sql](./JOIN/level4/133027.sql)|주문량이 많은 아이스크림들 조회하기|JOIN|[프로그래머스 SQL 133027](https://school.programmers.co.kr/learn/courses/30/lessons/133027)|
+|||[sql](./JOIN/level4/131117.sql)|5월 식품들의 총매출 조회하기|SUM (계산했으면 꼭 SUM하기)|[프로그래머스 SQL 131117](https://school.programmers.co.kr/learn/courses/30/lessons/131117)|
+|||[sql](./JOIN/level4/131124.sql)|그룹별 조건에 맞는 식당 목록 출력하기|SUB QUERY|[프로그래머스 SQL 131124](https://school.programmers.co.kr/learn/courses/30/lessons/131124)|
+|||[sql](./JOIN/level4/59045.sql)|보호소에서 중성화한 동물||[프로그래머스 SQL 59045](https://school.programmers.co.kr/learn/courses/30/lessons/59045)|
+
+
+
 
