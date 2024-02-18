@@ -98,6 +98,10 @@
 ||[py](./level2/12981.py)|Summer/Winter Coding(~2018) - 영어 끝말잇기||[프로그래머스 12981](https://school.programmers.co.kr/learn/courses/30/lessons/12981)|
 ||[py](./level2/12980.py)|Summer/Winter Coding(~2018) - 점프와 순간 이동|알고리즘 거꾸로 생각해보기|[프로그래머스 12980](https://school.programmers.co.kr/learn/courses/30/lessons/12980)|
 ||[py](./level2/42885.py)|구명보트|탐욕법, 이진탐색|[프로그래머스 42885](https://school.programmers.co.kr/learn/courses/30/lessons/42885)|
+||[py](./level2/12953.py)|N개의 최소공배수|math.gcd(),functools.reduce|[프로그래머스 12953](https://school.programmers.co.kr/learn/courses/30/lessons/12953)|
+||[py](./level2/12985.py)|2017 팁스타운- 예상 대진표||[프로그래머스 12985](https://school.programmers.co.kr/learn/courses/30/lessons/12985)|
+
+
 
 
 
