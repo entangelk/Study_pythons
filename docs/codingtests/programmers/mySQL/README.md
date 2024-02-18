@@ -18,6 +18,7 @@
 |||[sql](./select/level1/164673.sql)|조건에 부합하는 중고거래 댓글 조회하기|INNER JOIN|[프로그래머스 SQL 164673](https://school.programmers.co.kr/learn/courses/30/lessons/164673)|
 ||level2|[sql](./select/level2/131120.sql)|3월에 태어난 여성 회원 목록 출력하기|IS NOT NULL|[프로그래머스 SQL 131120](https://school.programmers.co.kr/learn/courses/30/lessons/131120)|
 |||[sql](./select/level2/131536.sql)|재구매가 일어난 상품과 회원 리스트 구하기|GROUP BY, HAVING|[프로그래머스 SQL 131536](https://school.programmers.co.kr/learn/courses/30/lessons/131536)|
+|||[sql](./select/level2/273711.sql)|업그레이드 된 아이템 구하기|SUB QUERY|[프로그래머스 SQL 273711](https://school.programmers.co.kr/learn/courses/30/lessons/273711)|
 ||level4|[sql](./select/level4/131118.sql)|서울에 위치한 식당 목록 출력하기|GROUP BY, AVG|[프로그래머스 SQL 131118](https://school.programmers.co.kr/learn/courses/30/lessons/131118)|
 |||[sql](./select/level4/131537.sql)|오프라인/온라인 판매 데이터 통합하기|UNION ALL, NULL AS|[프로그래머스 SQL 131537](https://school.programmers.co.kr/learn/courses/30/lessons/131537)|
 |SUM, MAX, MIN|level1|[sql](./SUM_MAX_MIN/level1/59415.sql)|최댓값 구하기|max|[프로그래머스 SQL 59415](https://school.programmers.co.kr/learn/courses/30/lessons/59415)|
@@ -26,6 +27,7 @@
 |||[sql](./SUM_MAX_MIN/level2/59038.sql)|최솟값 구하기|min|[프로그래머스 SQL 59038](https://school.programmers.co.kr/learn/courses/30/lessons/59038)|
 |||[sql](./SUM_MAX_MIN/level2/59406.sql)|동물 수 구하기|count|[프로그래머스 SQL 59406](https://school.programmers.co.kr/learn/courses/30/lessons/59406)|
 |||[sql](./SUM_MAX_MIN/level2/59408.sql)|중복 제거하기|DISTINCT|[프로그래머스 SQL 59408](https://school.programmers.co.kr/learn/courses/30/lessons/59408)|
+|||[sql](./SUM_MAX_MIN/level2/273709.sql)|조건에 맞는 아이템들의 가격의 총합 구하기||[프로그래머스 SQL 273709](https://school.programmers.co.kr/learn/courses/30/lessons/273709)|
 |GROUP BY|level2|[sql](./GROUP_BY/level2/131530.sql)|최댓값 구하기|max|[프로그래머스 SQL 131530](https://school.programmers.co.kr/learn/courses/30/lessons/131530)|
 |||[sql](./GROUP_BY/level2/132202.sql)|진료과별 총 예약 횟수 출력하기|WHERE|[프로그래머스 SQL 132202](https://school.programmers.co.kr/learn/courses/30/lessons/132202)|
 |||[sql](./GROUP_BY/level2/151137.sql)|자동차 종류 별 특정 옵션이 포함된 자동차 수 구하기|WHERE, OR|[프로그래머스 SQL 151137](https://school.programmers.co.kr/learn/courses/30/lessons/151137)|
@@ -61,7 +63,7 @@
 |||[sql](./String_Date/level3/131113.sql)|조건별로 분류하여 주문상태 출력하기|CASE, DATE_FORMAT|[프로그래머스 SQL 131113](https://school.programmers.co.kr/learn/courses/30/lessons/131113)|
 |||[sql](./String_Date/level3/157341.sql)|대여 기록이 존재하는 자동차 리스트 구하기|DISTINCT|[프로그래머스 SQL 157341](https://school.programmers.co.kr/learn/courses/30/lessons/157341)|
 |||[sql](./String_Date/level3/59411.sql)|오랜 기간 보호한 동물(2)|DATEDIFF|[프로그래머스 SQL 59411](https://school.programmers.co.kr/learn/courses/30/lessons/59411)|
-|||[sql](./String_Date/level3/.sql)|||[프로그래머스 SQL ](https://school.programmers.co.kr/learn/courses/30/lessons/)|
+||level4|[sql](./String_Date/level4/132204.sql)|취소되지 않은 진료 예약 조회하기|IS NULL|[프로그래머스 SQL 132204](https://school.programmers.co.kr/learn/courses/30/lessons/132204)|
 |||[sql](./String_Date/level3/.sql)|||[프로그래머스 SQL ](https://school.programmers.co.kr/learn/courses/30/lessons/)|
 |JOIN|level2|[sql](./JOIN/level2/144854.sql)|조건에 맞는 도서와 저자 리스트 출력하기||[프로그래머스 SQL 144854](https://school.programmers.co.kr/learn/courses/30/lessons/144854)|
 |||[sql](./JOIN/level2/131533.sql)|상품 별 오프라인 매출 구하기|SUM|[프로그래머스 SQL 131533](https://school.programmers.co.kr/learn/courses/30/lessons/131533)|
