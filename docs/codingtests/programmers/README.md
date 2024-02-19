@@ -100,6 +100,10 @@
 ||[py](./level2/42885.py)|구명보트|탐욕법, 이진탐색|[프로그래머스 42885](https://school.programmers.co.kr/learn/courses/30/lessons/42885)|
 ||[py](./level2/12953.py)|N개의 최소공배수|math.gcd(),functools.reduce|[프로그래머스 12953](https://school.programmers.co.kr/learn/courses/30/lessons/12953)|
 ||[py](./level2/12985.py)|2017 팁스타운- 예상 대진표||[프로그래머스 12985](https://school.programmers.co.kr/learn/courses/30/lessons/12985)|
+||[py](./level2/12914.py)|멀리뛰기|피보나치 수열|[프로그래머스 12914](https://school.programmers.co.kr/learn/courses/30/lessons/12914)|
+||[py](./level2/138476.py)|귤 고르기|collections.Counter|[프로그래머스 138476](https://school.programmers.co.kr/learn/courses/30/lessons/138476)|
+
+
 
 
 

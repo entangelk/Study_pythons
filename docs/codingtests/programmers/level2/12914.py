@@ -27,3 +27,17 @@
 # (1칸, 1칸, 1칸)
 # 총 3가지 방법으로 멀리 뛸 수 있습니다.
 
+def solution(n):
+    a,b = 1,1
+    if n==1:
+        return 1
+    if n==2:
+        return 2
+    for i in range(1,n+1):
+        a,b = b, a+b
+    a %= 1234567
+    return a
+
+solution(5)
+
+

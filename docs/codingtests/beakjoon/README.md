@@ -123,6 +123,10 @@
 ||[py](./Factor_Multiple2/1735.py)|분수 합 -유클리드 호제법 사용|[백준 1735](https://www.acmicpc.net/problem/1735)|
 ||[py](./Factor_Multiple2/2485.py)|가로수 심기 - math.gcd(최대공약수), fonctool.reduce(누적) 사용|[백준 2485](https://www.acmicpc.net/problem/2485)|
 ||[py](./Factor_Multiple2/4134.py)|다음 소수 찾기|[백준 4134](https://www.acmicpc.net/problem/4134)|
+||[py](./Factor_Multiple2/1929.py)|소수 구하기|[백준 1929](https://www.acmicpc.net/problem/1929)|
+||[py](./Factor_Multiple2/4948.py)|베르트랑 공준|[백준 4948](https://www.acmicpc.net/problem/4948)|
+
+
 
 
 
