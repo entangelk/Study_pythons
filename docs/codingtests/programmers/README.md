@@ -102,6 +102,8 @@
 ||[py](./level2/12985.py)|2017 팁스타운- 예상 대진표||[프로그래머스 12985](https://school.programmers.co.kr/learn/courses/30/lessons/12985)|
 ||[py](./level2/12914.py)|멀리뛰기|피보나치 수열|[프로그래머스 12914](https://school.programmers.co.kr/learn/courses/30/lessons/12914)|
 ||[py](./level2/138476.py)|귤 고르기|collections.Counter|[프로그래머스 138476](https://school.programmers.co.kr/learn/courses/30/lessons/138476)|
+||[py](./level2/76502.py)|괄호 회전하기|stack, for else|[프로그래머스 76502](https://school.programmers.co.kr/learn/courses/30/lessons/76502)|
+
 
 
 
