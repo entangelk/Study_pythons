@@ -104,9 +104,11 @@
 ||[py](./level2/138476.py)|귤 고르기|collections.Counter|[프로그래머스 138476](https://school.programmers.co.kr/learn/courses/30/lessons/138476)|
 ||[py](./level2/76502.py)|괄호 회전하기|stack, for else|[프로그래머스 76502](https://school.programmers.co.kr/learn/courses/30/lessons/76502)|
 
+### LEVEL2
 
-
-
+|구분|소스|문제설명|사용기능|출처|
+|--|--|--|--|--|
+||[py](./level3/42628.py)|이중우선순위큐|que|[프로그래머스 42628](https://school.programmers.co.kr/learn/courses/30/lessons/42628)|
 
 
 
