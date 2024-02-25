@@ -16,9 +16,11 @@
 |||[sql](./select/level1/144853.sql)|조건에 맞는 도서 리스트 출력하기||[프로그래머스 SQL 144853](https://school.programmers.co.kr/learn/courses/30/lessons/144853)|
 |||[sql](./select/level1/151136.sql)|평균 일일 대여 요금 구하기|SUM, CASE, COUNT|[프로그래머스 SQL 151136](https://school.programmers.co.kr/learn/courses/30/lessons/151136)|
 |||[sql](./select/level1/164673.sql)|조건에 부합하는 중고거래 댓글 조회하기|INNER JOIN|[프로그래머스 SQL 164673](https://school.programmers.co.kr/learn/courses/30/lessons/164673)|
+|||[sql](./select/level1/276013.sql)|Python 개발자 찾기||[프로그래머스 SQL 276013](https://school.programmers.co.kr/learn/courses/30/lessons/276013)|
 ||level2|[sql](./select/level2/131120.sql)|3월에 태어난 여성 회원 목록 출력하기|IS NOT NULL|[프로그래머스 SQL 131120](https://school.programmers.co.kr/learn/courses/30/lessons/131120)|
 |||[sql](./select/level2/131536.sql)|재구매가 일어난 상품과 회원 리스트 구하기|GROUP BY, HAVING|[프로그래머스 SQL 131536](https://school.programmers.co.kr/learn/courses/30/lessons/131536)|
 |||[sql](./select/level2/273711.sql)|업그레이드 된 아이템 구하기|SUB QUERY|[프로그래머스 SQL 273711](https://school.programmers.co.kr/learn/courses/30/lessons/273711)|
+|||[sql](./select/level2/276034.sql)|조건에 맞는 개발자 찾기|EXISTS, 2진변환, & <> |[프로그래머스 SQL 276034](https://school.programmers.co.kr/learn/courses/30/lessons/276034)|
 ||level4|[sql](./select/level4/131118.sql)|서울에 위치한 식당 목록 출력하기|GROUP BY, AVG|[프로그래머스 SQL 131118](https://school.programmers.co.kr/learn/courses/30/lessons/131118)|
 |||[sql](./select/level4/131537.sql)|오프라인/온라인 판매 데이터 통합하기|UNION ALL, NULL AS|[프로그래머스 SQL 131537](https://school.programmers.co.kr/learn/courses/30/lessons/131537)|
 |SUM, MAX, MIN|level1|[sql](./SUM_MAX_MIN/level1/59415.sql)|최댓값 구하기|max|[프로그래머스 SQL 59415](https://school.programmers.co.kr/learn/courses/30/lessons/59415)|
