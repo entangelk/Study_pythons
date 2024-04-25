@@ -19,6 +19,7 @@
 |||[sql](./select/level1/293258.sql)|잔챙이 잡은 수 구하기||[프로그래머스 SQL 293258](https://school.programmers.co.kr/learn/courses/30/lessons/293258)|
 |||[sql](./select/level1/276013.sql)|Python 개발자 찾기||[프로그래머스 SQL 276013](https://school.programmers.co.kr/learn/courses/30/lessons/276013)|
 |||[sql](./select/level1/298517.sql)|가장 큰 물고기 10마리 구하기||[프로그래머스 SQL 298517](https://school.programmers.co.kr/learn/courses/30/lessons/298517)|
+|||[sql](./select/level1/301645.sql)|특정 형질을 가지는 대장균 찾기|비트연산, &|[프로그래머스 SQL 301645](https://school.programmers.co.kr/learn/courses/30/lessons/301645)|
 ||level2|[sql](./select/level2/131120.sql)|3월에 태어난 여성 회원 목록 출력하기|IS NOT NULL|[프로그래머스 SQL 131120](https://school.programmers.co.kr/learn/courses/30/lessons/131120)|
 |||[sql](./select/level2/131536.sql)|재구매가 일어난 상품과 회원 리스트 구하기|GROUP BY, HAVING|[프로그래머스 SQL 131536](https://school.programmers.co.kr/learn/courses/30/lessons/131536)|
 |||[sql](./select/level2/273711.sql)|업그레이드 된 아이템 구하기|SUB QUERY|[프로그래머스 SQL 273711](https://school.programmers.co.kr/learn/courses/30/lessons/273711)|
